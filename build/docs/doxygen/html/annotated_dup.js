@@ -1,0 +1,76 @@
+var annotated_dup =
+[
+    [ "gr", "namespacegr.html", [
+      [ "blocks", "namespacegr_1_1blocks.html", [
+        [ "udp_sink", "classgr_1_1blocks_1_1udp__sink.html", "classgr_1_1blocks_1_1udp__sink" ]
+      ] ],
+      [ "mimo_ofdm_jrc", "namespacegr_1_1mimo__ofdm__jrc.html", [
+        [ "estimator", "namespacegr_1_1mimo__ofdm__jrc_1_1estimator.html", [
+          [ "base", "classgr_1_1mimo__ofdm__jrc_1_1estimator_1_1base.html", "classgr_1_1mimo__ofdm__jrc_1_1estimator_1_1base" ],
+          [ "ls", "classgr_1_1mimo__ofdm__jrc_1_1estimator_1_1ls.html", "classgr_1_1mimo__ofdm__jrc_1_1estimator_1_1ls" ],
+          [ "sta", "classgr_1_1mimo__ofdm__jrc_1_1estimator_1_1sta.html", "classgr_1_1mimo__ofdm__jrc_1_1estimator_1_1sta" ]
+        ] ],
+        [ "fft_peak_detect", "classgr_1_1mimo__ofdm__jrc_1_1fft__peak__detect.html", "classgr_1_1mimo__ofdm__jrc_1_1fft__peak__detect" ],
+        [ "frame_detector", "classgr_1_1mimo__ofdm__jrc_1_1frame__detector.html", "classgr_1_1mimo__ofdm__jrc_1_1frame__detector" ],
+        [ "frame_sync", "classgr_1_1mimo__ofdm__jrc_1_1frame__sync.html", "classgr_1_1mimo__ofdm__jrc_1_1frame__sync" ],
+        [ "gui_heatmap_plot", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot.html", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot" ],
+        [ "gui_time_plot", "classgr_1_1mimo__ofdm__jrc_1_1gui__time__plot.html", "classgr_1_1mimo__ofdm__jrc_1_1gui__time__plot" ],
+        [ "matrix_transpose", "classgr_1_1mimo__ofdm__jrc_1_1matrix__transpose.html", "classgr_1_1mimo__ofdm__jrc_1_1matrix__transpose" ],
+        [ "mimo_ofdm_equalizer", "classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__equalizer.html", "classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__equalizer" ],
+        [ "mimo_ofdm_radar", "classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__radar.html", "classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__radar" ],
+        [ "mimo_precoder", "classgr_1_1mimo__ofdm__jrc_1_1mimo__precoder.html", "classgr_1_1mimo__ofdm__jrc_1_1mimo__precoder" ],
+        [ "mimo_radar_estimator", "classgr_1_1mimo__ofdm__jrc_1_1mimo__radar__estimator.html", "classgr_1_1mimo__ofdm__jrc_1_1mimo__radar__estimator" ],
+        [ "mimo_radar_estimator_2", "classgr_1_1mimo__ofdm__jrc_1_1mimo__radar__estimator__2.html", "classgr_1_1mimo__ofdm__jrc_1_1mimo__radar__estimator__2" ],
+        [ "moving_avg", "classgr_1_1mimo__ofdm__jrc_1_1moving__avg.html", "classgr_1_1mimo__ofdm__jrc_1_1moving__avg" ],
+        [ "ndp_generator", "classgr_1_1mimo__ofdm__jrc_1_1ndp__generator.html", "classgr_1_1mimo__ofdm__jrc_1_1ndp__generator" ],
+        [ "ofdm_cyclic_prefix_remover", "classgr_1_1mimo__ofdm__jrc_1_1ofdm__cyclic__prefix__remover.html", "classgr_1_1mimo__ofdm__jrc_1_1ofdm__cyclic__prefix__remover" ],
+        [ "ofdm_frame_generator", "classgr_1_1mimo__ofdm__jrc_1_1ofdm__frame__generator.html", "classgr_1_1mimo__ofdm__jrc_1_1ofdm__frame__generator" ],
+        [ "packet_switch", "classgr_1_1mimo__ofdm__jrc_1_1packet__switch.html", "classgr_1_1mimo__ofdm__jrc_1_1packet__switch" ],
+        [ "range_angle_estimator", "classgr_1_1mimo__ofdm__jrc_1_1range__angle__estimator.html", "classgr_1_1mimo__ofdm__jrc_1_1range__angle__estimator" ],
+        [ "socket_pdu_jrc", "classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc.html", "classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc" ],
+        [ "stream_decoder", "classgr_1_1mimo__ofdm__jrc_1_1stream__decoder.html", "classgr_1_1mimo__ofdm__jrc_1_1stream__decoder" ],
+        [ "stream_encoder", "classgr_1_1mimo__ofdm__jrc_1_1stream__encoder.html", "classgr_1_1mimo__ofdm__jrc_1_1stream__encoder" ],
+        [ "sync_mimo_trx", "classgr_1_1mimo__ofdm__jrc_1_1sync__mimo__trx.html", "classgr_1_1mimo__ofdm__jrc_1_1sync__mimo__trx" ],
+        [ "target_simulator", "classgr_1_1mimo__ofdm__jrc_1_1target__simulator.html", "classgr_1_1mimo__ofdm__jrc_1_1target__simulator" ],
+        [ "usrp_mimo_trx", "classgr_1_1mimo__ofdm__jrc_1_1usrp__mimo__trx.html", "classgr_1_1mimo__ofdm__jrc_1_1usrp__mimo__trx" ],
+        [ "zero_pad", "classgr_1_1mimo__ofdm__jrc_1_1zero__pad.html", "classgr_1_1mimo__ofdm__jrc_1_1zero__pad" ],
+        [ "fft_peak_detect_impl", "classgr_1_1mimo__ofdm__jrc_1_1fft__peak__detect__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1fft__peak__detect__impl" ],
+        [ "frame_detector_impl", "classgr_1_1mimo__ofdm__jrc_1_1frame__detector__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1frame__detector__impl" ],
+        [ "frame_sync_impl", "classgr_1_1mimo__ofdm__jrc_1_1frame__sync__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1frame__sync__impl" ],
+        [ "gui_heatmap_plot_impl", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__impl" ],
+        [ "gui_time_plot_impl", "classgr_1_1mimo__ofdm__jrc_1_1gui__time__plot__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1gui__time__plot__impl" ],
+        [ "heatmap_plot", "classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot.html", "classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot" ],
+        [ "matrix_transpose_impl", "classgr_1_1mimo__ofdm__jrc_1_1matrix__transpose__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1matrix__transpose__impl" ],
+        [ "mimo_ofdm_equalizer_impl", "classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__equalizer__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__equalizer__impl" ],
+        [ "mimo_ofdm_radar_impl", "classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__radar__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__radar__impl" ],
+        [ "mimo_precoder_impl", "classgr_1_1mimo__ofdm__jrc_1_1mimo__precoder__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1mimo__precoder__impl" ],
+        [ "mimo_radar_estimator_2_impl", "classgr_1_1mimo__ofdm__jrc_1_1mimo__radar__estimator__2__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1mimo__radar__estimator__2__impl" ],
+        [ "mimo_radar_estimator_impl", "classgr_1_1mimo__ofdm__jrc_1_1mimo__radar__estimator__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1mimo__radar__estimator__impl" ],
+        [ "moving_avg_impl", "classgr_1_1mimo__ofdm__jrc_1_1moving__avg__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1moving__avg__impl" ],
+        [ "ndp_generator_impl", "classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl" ],
+        [ "ofdm_cyclic_prefix_remover_impl", "classgr_1_1mimo__ofdm__jrc_1_1ofdm__cyclic__prefix__remover__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1ofdm__cyclic__prefix__remover__impl" ],
+        [ "ofdm_frame_generator_impl", "classgr_1_1mimo__ofdm__jrc_1_1ofdm__frame__generator__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1ofdm__frame__generator__impl" ],
+        [ "packet_switch_impl", "classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl" ],
+        [ "range_angle_estimator_impl", "classgr_1_1mimo__ofdm__jrc_1_1range__angle__estimator__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1range__angle__estimator__impl" ],
+        [ "socket_pdu_jrc_impl", "classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl" ],
+        [ "stream_decoder_impl", "classgr_1_1mimo__ofdm__jrc_1_1stream__decoder__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1stream__decoder__impl" ],
+        [ "stream_encoder_impl", "classgr_1_1mimo__ofdm__jrc_1_1stream__encoder__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1stream__encoder__impl" ],
+        [ "sync_mimo_trx_impl", "classgr_1_1mimo__ofdm__jrc_1_1sync__mimo__trx__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1sync__mimo__trx__impl" ],
+        [ "target_simulator_impl", "classgr_1_1mimo__ofdm__jrc_1_1target__simulator__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1target__simulator__impl" ],
+        [ "tcp_connection", "classgr_1_1mimo__ofdm__jrc_1_1tcp__connection.html", "classgr_1_1mimo__ofdm__jrc_1_1tcp__connection" ],
+        [ "time_plot", "classgr_1_1mimo__ofdm__jrc_1_1time__plot.html", "classgr_1_1mimo__ofdm__jrc_1_1time__plot" ],
+        [ "usrp_mimo_trx_impl", "classgr_1_1mimo__ofdm__jrc_1_1usrp__mimo__trx__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1usrp__mimo__trx__impl" ],
+        [ "viterbi_decoder", "classgr_1_1mimo__ofdm__jrc_1_1viterbi__decoder.html", "classgr_1_1mimo__ofdm__jrc_1_1viterbi__decoder" ],
+        [ "zero_pad_impl", "classgr_1_1mimo__ofdm__jrc_1_1zero__pad__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1zero__pad__impl" ]
+      ] ]
+    ] ],
+    [ "Ui", "namespaceUi.html", [
+      [ "MainWindow", "classUi_1_1MainWindow.html", null ]
+    ] ],
+    [ "MainWindow", "classMainWindow.html", "classMainWindow" ],
+    [ "ofdm_mcs", "classofdm__mcs.html", "classofdm__mcs" ],
+    [ "packet_param", "classpacket__param.html", "classpacket__param" ],
+    [ "RangeAngleRasterData", "classRangeAngleRasterData.html", "classRangeAngleRasterData" ],
+    [ "TxWorker", "classTxWorker.html", "classTxWorker" ],
+    [ "Ui_MainWindow", "classUi__MainWindow.html", "classUi__MainWindow" ]
+];

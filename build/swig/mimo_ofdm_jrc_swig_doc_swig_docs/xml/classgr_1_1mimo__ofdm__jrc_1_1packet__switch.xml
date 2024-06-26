@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch" kind="class" language="C++" prot="public">
+    <compoundname>gr::mimo_ofdm_jrc::packet_switch</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::block</basecompoundref>
+    <includes refid="packet__switch_8h" local="no">packet_switch.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch_1a7ca23e7b69d054c4e3a4d1a691a56037" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch" kindref="compound">packet_switch</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;packet_switch&gt; gr::mimo_ofdm_jrc::packet_switch::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/include/mimo_ofdm_jrc/packet_switch.h" line="41" column="43" bodyfile="/home/host-pc/O-JRC/include/mimo_ofdm_jrc/packet_switch.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch_1a96a07785b97e4ca519672b93e51a9c93" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch_1a7ca23e7b69d054c4e3a4d1a691a56037" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::mimo_ofdm_jrc::packet_switch::make</definition>
+        <argsstring>(long period_ms, const std::string &amp;packet_info_file)</argsstring>
+        <name>make</name>
+        <param>
+          <type>long</type>
+          <declname>period_ms</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>packet_info_file</declname>
+        </param>
+        <briefdescription>
+<para>Construct a Pakcet Switch interface. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>period_ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>packet_info_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/include/mimo_ofdm_jrc/packet_switch.h" line="48" column="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::mimo_ofdm_jrc::packet_switch</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::mimo_ofdm_jrc::packet_switch</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/host-pc/O-JRC/include/mimo_ofdm_jrc/packet_switch.h" line="37" column="9" bodyfile="/home/host-pc/O-JRC/include/mimo_ofdm_jrc/packet_switch.h" bodystart="38" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch_1a96a07785b97e4ca519672b93e51a9c93" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch</scope><name>make</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch_1a7ca23e7b69d054c4e3a4d1a691a56037" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

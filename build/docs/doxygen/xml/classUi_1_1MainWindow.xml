@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classUi_1_1MainWindow" kind="class" language="C++" prot="public">
+    <compoundname>Ui::MainWindow</compoundname>
+    <basecompoundref refid="classUi__MainWindow" prot="public" virt="non-virtual">Ui_MainWindow</basecompoundref>
+    <basecompoundref refid="classUi__MainWindow" prot="public" virt="non-virtual">Ui_MainWindow</basecompoundref>
+    <includes refid="build-mimo-ofdm-packet-generator-Desktop-Debug_2ui__mainwindow_8h" local="no">ui_mainwindow.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ui::MainWindow</label>
+        <link refid="classUi_1_1MainWindow"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ui_MainWindow</label>
+        <link refid="classUi__MainWindow"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ui::MainWindow</label>
+        <link refid="classUi_1_1MainWindow"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ui_MainWindow</label>
+        <link refid="classUi__MainWindow"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/host-pc/O-JRC/examples/build-mimo-ofdm-packet-generator-Desktop-Debug/ui_mainwindow.h" line="747" column="5" bodyfile="/home/host-pc/O-JRC/examples/build-mimo-ofdm-packet-generator-Desktop-Debug/ui_mainwindow.h" bodystart="747" bodyend="747"/>
+    <listofallmembers>
+      <member refid="classUi__MainWindow_1a67bd66f18d80afdca89c99efe52c571c" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>bandwidthInput</name></member>
+      <member refid="classUi__MainWindow_1a42b36eae8344a66b436db6826b9d6dfb" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>cameraConnectButton</name></member>
+      <member refid="classUi__MainWindow_1a5d36bb28bc324d8212688ad5eb86b667" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>cameraSelect</name></member>
+      <member refid="classUi__MainWindow_1a6600dd3bdd3d55e535659e4a4096ea48" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>centralWidget</name></member>
+      <member refid="classUi__MainWindow_1a9f2868cd2b7da64752f43a95afd642ac" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>comboButton</name></member>
+      <member refid="classUi__MainWindow_1a6579066c8ae4680497324ccad1cd7fc3" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>cpPrefixInput</name></member>
+      <member refid="classUi__MainWindow_1a66af34af42094f04222f7922aa436164" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>currentRateLabel</name></member>
+      <member refid="classUi__MainWindow_1a704724d4dedeb6d0a07441ed00a55525" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>dataButton</name></member>
+      <member refid="classUi__MainWindow_1acee258c91c2100c3cd4b43addd85af95" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>dataCarrierInput</name></member>
+      <member refid="classUi__MainWindow_1a00bc823142fe8fb10e0329e8f878d69b" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>dataIntervalInput</name></member>
+      <member refid="classUi__MainWindow_1a394e24bcc8c27169fe39b4bb719bc966" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>dataIntervalLabel</name></member>
+      <member refid="classUi__MainWindow_1a42f252c42ba5cd88cdc766693975862f" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>dataSizeInput</name></member>
+      <member refid="classUi__MainWindow_1a637c6cf357a926ae681721732ed47d69" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>dataSizeLabel</name></member>
+      <member refid="classUi__MainWindow_1a302d1ae9656b5906c59e3783578ecc01" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>fftLengthInput</name></member>
+      <member refid="classUi__MainWindow_1a88a98f6fb0e9a7f1ee9a97f2aebedb6e" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>formLayout</name></member>
+      <member refid="classUi__MainWindow_1a53df09c13fd6ddd38d0ad598f94058f5" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>formLayout_2</name></member>
+      <member refid="classUi__MainWindow_1a733adcc4b89aacdada48fefa9388e82e" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>formLayout_3</name></member>
+      <member refid="classUi__MainWindow_1a527c7283b6e5f98c4ccab014257e8739" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>formLayout_5</name></member>
+      <member refid="classUi__MainWindow_1a2250a75d18bd3de83aaf1d1a1a3df884" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>gnuSocketGroup</name></member>
+      <member refid="classUi__MainWindow_1ac4586abe48f0aabf940b0dc2df3772ed" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>gridLayout</name></member>
+      <member refid="classUi__MainWindow_1aef758359672a005f7b6e49dc82849d26" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>gridLayout_10</name></member>
+      <member refid="classUi__MainWindow_1aadb0a5c0f245dd73991c3c64c72ee64c" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>gridLayout_11</name></member>
+      <member refid="classUi__MainWindow_1acbbc615e662a726cd71cabd62c7d2a70" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>gridLayout_2</name></member>
+      <member refid="classUi__MainWindow_1a183b845e444a43e0be1cd9f5be22c359" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>gridLayout_3</name></member>
+      <member refid="classUi__MainWindow_1a87e310470e3a3ad29981f1166af9be7f" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>gridLayout_4</name></member>
+      <member refid="classUi__MainWindow_1a7816be20d08db3e35172f499a01618dc" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>gridLayout_6</name></member>
+      <member refid="classUi__MainWindow_1a18ebb1569ed82e18eaf468fcac535037" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>gridLayout_7</name></member>
+      <member refid="classUi__MainWindow_1a80980b355ef4370ca04776d2e639d329" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>gridLayout_8</name></member>
+      <member refid="classUi__MainWindow_1aa7f8d03d60a28f75d18aa65e7cb91912" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>gridLayout_9</name></member>
+      <member refid="classUi__MainWindow_1ad396eaa8d855b13559c50e02164b8325" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>groupBox</name></member>
+      <member refid="classUi__MainWindow_1a9ee21d2c2bc000e7a8ba931bacfc5a69" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>horizontalLayout_2</name></member>
+      <member refid="classUi__MainWindow_1ae189b5a48fa6e6f4b6775f1f832afe9c" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>horizontalSpacer</name></member>
+      <member refid="classUi__MainWindow_1ab18937cd7bb632b9c8f9cd260a8294f1" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>horizontalSpacer_10</name></member>
+      <member refid="classUi__MainWindow_1a99361df7cfa0c2bcc7edc18d8465bd8b" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>horizontalSpacer_11</name></member>
+      <member refid="classUi__MainWindow_1a1662d5e0a54ac7f38c5ab5d991f4ce14" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>horizontalSpacer_2</name></member>
+      <member refid="classUi__MainWindow_1ab8441da46ea0343bc6ad8f05e2e1c270" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>horizontalSpacer_3</name></member>
+      <member refid="classUi__MainWindow_1ac4a217e81b9707b402a58b7e55ed81e2" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>horizontalSpacer_4</name></member>
+      <member refid="classUi__MainWindow_1ab70233e701808fd06001b2c59717d63b" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>horizontalSpacer_5</name></member>
+      <member refid="classUi__MainWindow_1ab2f233a14d9b1c41ec685a9fe1c606b7" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>horizontalSpacer_6</name></member>
+      <member refid="classUi__MainWindow_1ae35e3adae2de50d8cd252c506e98ddc9" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>horizontalSpacer_7</name></member>
+      <member refid="classUi__MainWindow_1a13a8029dca885a0a01ea02f528940fab" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>horizontalSpacer_8</name></member>
+      <member refid="classUi__MainWindow_1ab01ef3bec5f958312898455ce66c7723" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>horizontalSpacer_9</name></member>
+      <member refid="classUi__MainWindow_1a0130582ecf8dfbf621aa87f6d0d702f7" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>label_10</name></member>
+      <member refid="classUi__MainWindow_1a5137915fc613f86173da699e3fc07cc5" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>label_11</name></member>
+      <member refid="classUi__MainWindow_1a1df694de9f13a0ef3efae2c9aa495464" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>label_12</name></member>
+      <member refid="classUi__MainWindow_1a3c75bb276de75b3e98e7db39e4a9e190" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>label_13</name></member>
+      <member refid="classUi__MainWindow_1a85082b01c10e391194bc6e48c0d8cb28" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>label_14</name></member>
+      <member refid="classUi__MainWindow_1a253fbc5b44941384321b7c58cf96cc65" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>label_3</name></member>
+      <member refid="classUi__MainWindow_1a953dcd0e658a0903339e2ef3c94d4e7e" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>label_4</name></member>
+      <member refid="classUi__MainWindow_1af121c391d64554ab2602ae6174e03d95" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>label_5</name></member>
+      <member refid="classUi__MainWindow_1ac10ed68694c23da02ddc0ceacd54ef01" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>label_6</name></member>
+      <member refid="classUi__MainWindow_1a9687c8357009cfcf28517fa276ea1918" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>label_7</name></member>
+      <member refid="classUi__MainWindow_1abbe5a2168615ca342d06286db75927bc" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>label_9</name></member>
+      <member refid="classUi__MainWindow_1a3ef6876a5881954fc438e25a56f2b0d4" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>line_3</name></member>
+      <member refid="classUi__MainWindow_1aed96711a033a73bc8761cfb0b221d440" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>maximumRateLabel</name></member>
+      <member refid="classUi__MainWindow_1a2cedc45097746a3a2485a66872a4a36d" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>mcsSelect</name></member>
+      <member refid="classUi__MainWindow_1a9ce1636726f1410bfd5962282cd68b40" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>ndpButton</name></member>
+      <member refid="classUi__MainWindow_1aad5a56e5d9c911e2f5da080932b1a230" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>ndpIntervalInput</name></member>
+      <member refid="classUi__MainWindow_1a990d3c8b6a581634b1e7e82ee683abfd" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>ndpIntervalLabel</name></member>
+      <member refid="classUi__MainWindow_1a68c5287c8d341df462984b7c6f3f2c48" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>parameterGroup</name></member>
+      <member refid="classUi__MainWindow_1a7bb4c1edb46ae79e242163938f911fba" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>pduGeneratorGroup</name></member>
+      <member refid="classUi__MainWindow_1a3069e0aeda3f38783945b71974f1ba05" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>RateBox</name></member>
+      <member refid="classUi__MainWindow_1a097dd160c3534a204904cb374412c618" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>retranslateUi</name></member>
+      <member refid="classUi__MainWindow_1a097dd160c3534a204904cb374412c618" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>retranslateUi</name></member>
+      <member refid="classUi__MainWindow_1acf4a0872c4c77d8f43a2ec66ed849b58" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>setupUi</name></member>
+      <member refid="classUi__MainWindow_1acf4a0872c4c77d8f43a2ec66ed849b58" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>setupUi</name></member>
+      <member refid="classUi__MainWindow_1aa80e158c85d69bd954e7d60252e113ac" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>startButton</name></member>
+      <member refid="classUi__MainWindow_1afe204804517ee6a404a7d225e3b38e56" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>txAntennaInput</name></member>
+      <member refid="classUi__MainWindow_1a413bfeee035668b1b4f3e86b69527547" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>txButtonGroup</name></member>
+      <member refid="classUi__MainWindow_1a30fd447202ed7f52719e0e415efbf305" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>txDurationLabel</name></member>
+      <member refid="classUi__MainWindow_1a5c8d6e03138605140438ab580184663e" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>txModeGroup</name></member>
+      <member refid="classUi__MainWindow_1ae435f3274ea2636a319b97bcd045a2fc" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>txParamGroup</name></member>
+      <member refid="classUi__MainWindow_1a3ec0a8d099f7383a478bc4066cd66ecc" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>udpPortInput</name></member>
+      <member refid="classUi__MainWindow_1a0efe6ea53a68064eb143066780257ae4" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalLayout_7</name></member>
+      <member refid="classUi__MainWindow_1aa9f174b2e6099476357629eb7beddee7" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalLayout_8</name></member>
+      <member refid="classUi__MainWindow_1a2c53f7f2e3106a4225d5be295e1315ae" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalSpacer</name></member>
+      <member refid="classUi__MainWindow_1a6735ccaff63413263ccf5d80e9a89b6f" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalSpacer_10</name></member>
+      <member refid="classUi__MainWindow_1a424b291e79040c7ec46269c6f04d3e67" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalSpacer_12</name></member>
+      <member refid="classUi__MainWindow_1af7b3fe6a3f100795153cd504ce0b86bf" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalSpacer_2</name></member>
+      <member refid="classUi__MainWindow_1a986c0329937b0114c287180b96a6ff6b" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalSpacer_3</name></member>
+      <member refid="classUi__MainWindow_1ab8d23bf35c39e8c258cfbf04cbcb8fb0" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalSpacer_4</name></member>
+      <member refid="classUi__MainWindow_1a6abafc09428aae5692bf9bb5d7de5ef4" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalSpacer_6</name></member>
+      <member refid="classUi__MainWindow_1a2b7726c83517189435906d60c56e9190" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>videoTxButton</name></member>
+      <member refid="classUi__MainWindow_1a31fd95d0fc5f00d5a1ce8349af940a24" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>videoTxGroup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

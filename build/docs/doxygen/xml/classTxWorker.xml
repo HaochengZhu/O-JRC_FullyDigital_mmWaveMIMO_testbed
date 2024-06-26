@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classTxWorker" kind="class" language="C++" prot="public">
+    <compoundname>TxWorker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="txworker_8h" local="no">txworker.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classTxWorker_1ace6eeb37ee3f2392c68b325d31fa2403" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TxWorker::running</definition>
+        <argsstring></argsstring>
+        <name>running</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="82" column="10" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTxWorker_1a860f3351b7003dd618c1f6333ab31215" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TxWorker::cameraConnected</definition>
+        <argsstring></argsstring>
+        <name>cameraConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="83" column="10" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTxWorker_1ad80d5fb75716050b70145871eb475e15" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TxWorker::newFrame</definition>
+        <argsstring></argsstring>
+        <name>newFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="84" column="10" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTxWorker_1ac79387a6c0bff25e707783b74a54848c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TxWorker::UDPport</definition>
+        <argsstring></argsstring>
+        <name>UDPport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="86" column="9" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTxWorker_1a1f1f8f345e172f0b7ff39a8854822ce4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TxWorker::dataInterval</definition>
+        <argsstring></argsstring>
+        <name>dataInterval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="88" column="12" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTxWorker_1a4626424677d243cdce5de3e1342ca99f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TxWorker::ndpInterval</definition>
+        <argsstring></argsstring>
+        <name>ndpInterval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="89" column="12" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTxWorker_1aba57561053207d0508150b5984c04a76" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TxWorker::dataSize</definition>
+        <argsstring></argsstring>
+        <name>dataSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="91" column="9" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTxWorker_1a0751808d6df06cf2eacfcf9605477867" prot="private" static="no" mutable="no">
+        <type><ref refid="txworker_8h_1ababbdcdf02b8386c3e71afdd1c81c731" kindref="member">txMode</ref></type>
+        <definition>txMode TxWorker::currentMode</definition>
+        <argsstring></argsstring>
+        <name>currentMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="93" column="12" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTxWorker_1af42a78ca70a5ae3d6502a638e3277e72" prot="private" static="no" mutable="no">
+        <type>QByteArray</type>
+        <definition>QByteArray TxWorker::frameBuffer</definition>
+        <argsstring></argsstring>
+        <name>frameBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="95" column="16" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTxWorker_1a97253a6e92907ecd85ca24748bc943a7" prot="private" static="no" mutable="no">
+        <type>QCamera *</type>
+        <definition>QCamera* TxWorker::camera</definition>
+        <argsstring></argsstring>
+        <name>camera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="97" column="13" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTxWorker_1a45ae93041910bfb61411e697cdb5414d" prot="private" static="no" mutable="no">
+        <type>QCameraImageCapture *</type>
+        <definition>QCameraImageCapture* TxWorker::imageCapture</definition>
+        <argsstring></argsstring>
+        <name>imageCapture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="98" column="25" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTxWorker_1a6dfc223f5e18126b513ab3c27ce010ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TxWorker::TxWorker</definition>
+        <argsstring>()</argsstring>
+        <name>TxWorker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="53" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1a11966128b34056caef44a91f74232a80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TxWorker::~TxWorker</definition>
+        <argsstring>()</argsstring>
+        <name>~TxWorker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="54" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1a8d5290672cdafb57d614f0035ecbbfe1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TxWorker::setPort</definition>
+        <argsstring>(int UDPport)</argsstring>
+        <name>setPort</name>
+        <param>
+          <type>int</type>
+          <declname>UDPport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="55" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1a2f122e32162109bde31ebac82c44b7d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TxWorker::setRunning</definition>
+        <argsstring>(bool running)</argsstring>
+        <name>setRunning</name>
+        <param>
+          <type>bool</type>
+          <declname>running</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="56" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1aec62cafb7726fc26b3f57769473dc7db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TxWorker::setDataInterval</definition>
+        <argsstring>(float dataInterval)</argsstring>
+        <name>setDataInterval</name>
+        <param>
+          <type>float</type>
+          <declname>dataInterval</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="58" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1ae031ed3bba8d744c1aaf6cc52c3241d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TxWorker::setNdpInterval</definition>
+        <argsstring>(float ndpInterval)</argsstring>
+        <name>setNdpInterval</name>
+        <param>
+          <type>float</type>
+          <declname>ndpInterval</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="59" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1a739ed52793a8367d2c063467033d83e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TxWorker::setDataSize</definition>
+        <argsstring>(int dataSize)</argsstring>
+        <name>setDataSize</name>
+        <param>
+          <type>int</type>
+          <declname>dataSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="60" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1a30cc484ac9875d6198af5c82fb8a4546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TxWorker::setTxMode</definition>
+        <argsstring>(txMode mode)</argsstring>
+        <name>setTxMode</name>
+        <param>
+          <type><ref refid="txworker_8h_1ababbdcdf02b8386c3e71afdd1c81c731" kindref="member">txMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="61" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1a346fb40db4edec3fbc5a1f40ca21ac2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="txworker_8h_1ababbdcdf02b8386c3e71afdd1c81c731" kindref="member">txMode</ref></type>
+        <definition>txMode TxWorker::getTxMode</definition>
+        <argsstring>()</argsstring>
+        <name>getTxMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="63" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1abb3916fb831ab2a5fe77dc3805d925a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TxWorker::getDataSize</definition>
+        <argsstring>()</argsstring>
+        <name>getDataSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="64" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1a491533166e659156bc38e1e0cb0f8107" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TxWorker::isCameraConnected</definition>
+        <argsstring>()</argsstring>
+        <name>isCameraConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="65" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1af2cf9b08eaca1d5b5aaced72ebab7375" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TxWorker::connectCamera</definition>
+        <argsstring>(QCameraInfo selectedCamera)</argsstring>
+        <name>connectCamera</name>
+        <param>
+          <type>QCameraInfo</type>
+          <declname>selectedCamera</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="67" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1a16aad45f55a83e99e4b3b1fd8be3fcbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TxWorker::disconnectCamera</definition>
+        <argsstring>()</argsstring>
+        <name>disconnectCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="68" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1a6dd5ce993590ae73b74dd427c99b1493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TxWorker::stopCamera</definition>
+        <argsstring>()</argsstring>
+        <name>stopCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="69" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classTxWorker_1a56f1beb17d7f138ba518b480fd233bcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TxWorker::startCamera</definition>
+        <argsstring>()</argsstring>
+        <name>startCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="70" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classTxWorker_1a31baed44cefee62567d7cb43cd9a0439" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TxWorker::process</definition>
+        <argsstring>()</argsstring>
+        <name>process</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="75" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classTxWorker_1a222449b7a34b9b4d305743d43b0ae00c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TxWorker::finished</definition>
+        <argsstring>()</argsstring>
+        <name>finished</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="78" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="classTxWorker_1a55b923b82173ab9b52aac1b88a3328ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TxWorker::error</definition>
+        <argsstring>(QString err)</argsstring>
+        <name>error</name>
+        <param>
+          <type>QString</type>
+          <declname>err</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="79" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>TxWorker</label>
+        <link refid="classTxWorker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>TxWorker</label>
+        <link refid="classTxWorker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="49" column="1" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="50" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classTxWorker_1a97253a6e92907ecd85ca24748bc943a7" prot="private" virt="non-virtual"><scope>TxWorker</scope><name>camera</name></member>
+      <member refid="classTxWorker_1a860f3351b7003dd618c1f6333ab31215" prot="private" virt="non-virtual"><scope>TxWorker</scope><name>cameraConnected</name></member>
+      <member refid="classTxWorker_1af2cf9b08eaca1d5b5aaced72ebab7375" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>connectCamera</name></member>
+      <member refid="classTxWorker_1a0751808d6df06cf2eacfcf9605477867" prot="private" virt="non-virtual"><scope>TxWorker</scope><name>currentMode</name></member>
+      <member refid="classTxWorker_1a1f1f8f345e172f0b7ff39a8854822ce4" prot="private" virt="non-virtual"><scope>TxWorker</scope><name>dataInterval</name></member>
+      <member refid="classTxWorker_1aba57561053207d0508150b5984c04a76" prot="private" virt="non-virtual"><scope>TxWorker</scope><name>dataSize</name></member>
+      <member refid="classTxWorker_1a16aad45f55a83e99e4b3b1fd8be3fcbb" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>disconnectCamera</name></member>
+      <member refid="classTxWorker_1a55b923b82173ab9b52aac1b88a3328ff" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>error</name></member>
+      <member refid="classTxWorker_1a222449b7a34b9b4d305743d43b0ae00c" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>finished</name></member>
+      <member refid="classTxWorker_1af42a78ca70a5ae3d6502a638e3277e72" prot="private" virt="non-virtual"><scope>TxWorker</scope><name>frameBuffer</name></member>
+      <member refid="classTxWorker_1abb3916fb831ab2a5fe77dc3805d925a3" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>getDataSize</name></member>
+      <member refid="classTxWorker_1a346fb40db4edec3fbc5a1f40ca21ac2f" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>getTxMode</name></member>
+      <member refid="classTxWorker_1a45ae93041910bfb61411e697cdb5414d" prot="private" virt="non-virtual"><scope>TxWorker</scope><name>imageCapture</name></member>
+      <member refid="classTxWorker_1a491533166e659156bc38e1e0cb0f8107" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>isCameraConnected</name></member>
+      <member refid="classTxWorker_1a4626424677d243cdce5de3e1342ca99f" prot="private" virt="non-virtual"><scope>TxWorker</scope><name>ndpInterval</name></member>
+      <member refid="classTxWorker_1ad80d5fb75716050b70145871eb475e15" prot="private" virt="non-virtual"><scope>TxWorker</scope><name>newFrame</name></member>
+      <member refid="classTxWorker_1a31baed44cefee62567d7cb43cd9a0439" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>process</name></member>
+      <member refid="classTxWorker_1ace6eeb37ee3f2392c68b325d31fa2403" prot="private" virt="non-virtual"><scope>TxWorker</scope><name>running</name></member>
+      <member refid="classTxWorker_1aec62cafb7726fc26b3f57769473dc7db" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>setDataInterval</name></member>
+      <member refid="classTxWorker_1a739ed52793a8367d2c063467033d83e9" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>setDataSize</name></member>
+      <member refid="classTxWorker_1ae031ed3bba8d744c1aaf6cc52c3241d7" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>setNdpInterval</name></member>
+      <member refid="classTxWorker_1a8d5290672cdafb57d614f0035ecbbfe1" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>setPort</name></member>
+      <member refid="classTxWorker_1a2f122e32162109bde31ebac82c44b7d7" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>setRunning</name></member>
+      <member refid="classTxWorker_1a30cc484ac9875d6198af5c82fb8a4546" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>setTxMode</name></member>
+      <member refid="classTxWorker_1a56f1beb17d7f138ba518b480fd233bcc" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>startCamera</name></member>
+      <member refid="classTxWorker_1a6dd5ce993590ae73b74dd427c99b1493" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>stopCamera</name></member>
+      <member refid="classTxWorker_1a6dfc223f5e18126b513ab3c27ce010ff" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>TxWorker</name></member>
+      <member refid="classTxWorker_1ac79387a6c0bff25e707783b74a54848c" prot="private" virt="non-virtual"><scope>TxWorker</scope><name>UDPport</name></member>
+      <member refid="classTxWorker_1a11966128b34056caef44a91f74232a80" prot="public" virt="non-virtual"><scope>TxWorker</scope><name>~TxWorker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

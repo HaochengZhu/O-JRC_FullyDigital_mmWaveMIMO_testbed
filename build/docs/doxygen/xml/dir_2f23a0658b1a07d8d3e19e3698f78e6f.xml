@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_2f23a0658b1a07d8d3e19e3698f78e6f" kind="dir">
+    <compoundname>build-mimo-ofdm-packet-generator-Desktop-Debug</compoundname>
+    <innerfile refid="build-mimo-ofdm-packet-generator-Desktop-Debug_2moc__predefs_8h">build-mimo-ofdm-packet-generator-Desktop-Debug/moc_predefs.h</innerfile>
+    <innerfile refid="build-mimo-ofdm-packet-generator-Desktop-Debug_2ui__mainwindow_8h">build-mimo-ofdm-packet-generator-Desktop-Debug/ui_mainwindow.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/host-pc/O-JRC/examples/build-mimo-ofdm-packet-generator-Desktop-Debug/"/>
+  </compounddef>
+</doxygen>

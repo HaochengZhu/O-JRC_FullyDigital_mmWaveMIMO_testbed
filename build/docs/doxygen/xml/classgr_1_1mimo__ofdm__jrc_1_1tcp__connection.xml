@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection" kind="class" language="C++" prot="public">
+    <compoundname>gr::mimo_ofdm_jrc::tcp_connection</compoundname>
+    <includes refid="tcp__connection_8h" local="no">tcp_connection.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a96dd8636bf7514d2218824d74349fd3a" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection" kindref="compound">tcp_connection</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;tcp_connection&gt; gr::mimo_ofdm_jrc::tcp_connection::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/tcp_connection.h" line="38" column="31" bodyfile="/home/host-pc/O-JRC/lib/tcp_connection.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a1e5943c2e4968ac0ea7d2ca59d99820c" prot="private" static="no" mutable="no">
+        <type>boost::asio::ip::tcp::socket</type>
+        <definition>boost::asio::ip::tcp::socket gr::mimo_ofdm_jrc::tcp_connection::d_socket</definition>
+        <argsstring></argsstring>
+        <name>d_socket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/tcp_connection.h" line="28" column="34" bodyfile="/home/host-pc/O-JRC/lib/tcp_connection.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a4bd07a8105e56b7ecece2366cd047ea0" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; char &gt;</type>
+        <definition>std::vector&lt;char&gt; gr::mimo_ofdm_jrc::tcp_connection::d_buf</definition>
+        <argsstring></argsstring>
+        <name>d_buf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/tcp_connection.h" line="29" column="17" bodyfile="/home/host-pc/O-JRC/lib/tcp_connection.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1add8b528489cc41f6d55ab913a9985138" prot="private" static="no" mutable="no">
+        <type>basic_block *</type>
+        <definition>basic_block* gr::mimo_ofdm_jrc::tcp_connection::d_block</definition>
+        <argsstring></argsstring>
+        <name>d_block</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/tcp_connection.h" line="30" column="17" bodyfile="/home/host-pc/O-JRC/lib/tcp_connection.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a73ad06ea27a1aa58e858b2bda63460e6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::mimo_ofdm_jrc::tcp_connection::d_no_delay</definition>
+        <argsstring></argsstring>
+        <name>d_no_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/tcp_connection.h" line="31" column="10" bodyfile="/home/host-pc/O-JRC/lib/tcp_connection.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1acdcb3c3850fcafb14b36b4838628f6cd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mimo_ofdm_jrc::tcp_connection::tcp_connection</definition>
+        <argsstring>(boost::asio::io_service &amp;io_service, int MTU=10000, bool no_delay=false)</argsstring>
+        <name>tcp_connection</name>
+        <param>
+          <type>boost::asio::io_service &amp;</type>
+          <declname>io_service</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>MTU</declname>
+          <defval>10000</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>no_delay</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/tcp_connection.h" line="33" column="5"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a8dc80dc4831c58509e81fb71523958df" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a96dd8636bf7514d2218824d74349fd3a" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::mimo_ofdm_jrc::tcp_connection::make</definition>
+        <argsstring>(boost::asio::io_service &amp;io_service, int MTU=10000, bool no_delay=false)</argsstring>
+        <name>make</name>
+        <param>
+          <type>boost::asio::io_service &amp;</type>
+          <declname>io_service</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>MTU</declname>
+          <defval>10000</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>no_delay</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/tcp_connection.h" line="41" column="5"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a8d0ee893c4025a0417f039dc47532402" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boost::asio::ip::tcp::socket &amp;</type>
+        <definition>boost::asio::ip::tcp::socket&amp; gr::mimo_ofdm_jrc::tcp_connection::socket</definition>
+        <argsstring>()</argsstring>
+        <name>socket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/tcp_connection.h" line="43" column="34" bodyfile="/home/host-pc/O-JRC/lib/tcp_connection.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1ab6d4cb7ec94ab406dd84098e3f675b85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimo_ofdm_jrc::tcp_connection::start</definition>
+        <argsstring>(gr::basic_block *block)</argsstring>
+        <name>start</name>
+        <param>
+          <type>gr::basic_block *</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/tcp_connection.h" line="45" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a7fb08ccdfde6ff907a501d9bb030cdc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimo_ofdm_jrc::tcp_connection::send</definition>
+        <argsstring>(pmt::pmt_t vector)</argsstring>
+        <name>send</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>vector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/tcp_connection.h" line="46" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a0d65d05bb9d19952d015ba9ae49448d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimo_ofdm_jrc::tcp_connection::handle_read</definition>
+        <argsstring>(const boost::system::error_code &amp;error, size_t bytes_transferred)</argsstring>
+        <name>handle_read</name>
+        <param>
+          <type>const boost::system::error_code &amp;</type>
+          <declname>error</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>bytes_transferred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/tcp_connection.h" line="47" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1ae7a5c5120b15a02081823974d5eda554" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimo_ofdm_jrc::tcp_connection::handle_write</definition>
+        <argsstring>(boost::shared_ptr&lt; char[]&gt; txbuf, const boost::system::error_code &amp;error, size_t bytes_transferred)</argsstring>
+        <name>handle_write</name>
+        <param>
+          <type>boost::shared_ptr&lt; char[]&gt;</type>
+          <declname>txbuf</declname>
+        </param>
+        <param>
+          <type>const boost::system::error_code &amp;</type>
+          <declname>error</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>bytes_transferred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/tcp_connection.h" line="48" column="10" bodyfile="/home/host-pc/O-JRC/lib/tcp_connection.h" bodystart="48" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/host-pc/O-JRC/lib/tcp_connection.h" line="25" column="1" bodyfile="/home/host-pc/O-JRC/lib/tcp_connection.h" bodystart="26" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1add8b528489cc41f6d55ab913a9985138" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::tcp_connection</scope><name>d_block</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a4bd07a8105e56b7ecece2366cd047ea0" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::tcp_connection</scope><name>d_buf</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a73ad06ea27a1aa58e858b2bda63460e6" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::tcp_connection</scope><name>d_no_delay</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a1e5943c2e4968ac0ea7d2ca59d99820c" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::tcp_connection</scope><name>d_socket</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a0d65d05bb9d19952d015ba9ae49448d3" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::tcp_connection</scope><name>handle_read</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1ae7a5c5120b15a02081823974d5eda554" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::tcp_connection</scope><name>handle_write</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a8dc80dc4831c58509e81fb71523958df" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::tcp_connection</scope><name>make</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a7fb08ccdfde6ff907a501d9bb030cdc8" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::tcp_connection</scope><name>send</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a8d0ee893c4025a0417f039dc47532402" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::tcp_connection</scope><name>socket</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1a96dd8636bf7514d2218824d74349fd3a" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::tcp_connection</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1ab6d4cb7ec94ab406dd84098e3f675b85" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::tcp_connection</scope><name>start</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1tcp__connection_1acdcb3c3850fcafb14b36b4838628f6cd" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::tcp_connection</scope><name>tcp_connection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

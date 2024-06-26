@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::mimo_ofdm_jrc::packet_switch_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch" prot="public" virt="non-virtual">gr::mimo_ofdm_jrc::packet_switch</basecompoundref>
+    <includes refid="packet__switch__impl_8h" local="no">packet_switch_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1ae413ce155f44ee9190aa8df679034f22" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::mimo_ofdm_jrc::packet_switch_impl::d_period_ms</definition>
+        <argsstring></argsstring>
+        <name>d_period_ms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="35" column="10" bodyfile="/home/host-pc/O-JRC/lib/packet_switch_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a2e694ac7aaa34a0acbfb0138a2c1896b" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::mimo_ofdm_jrc::packet_switch_impl::d_packet_info_file</definition>
+        <argsstring></argsstring>
+        <name>d_packet_info_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="36" column="17" bodyfile="/home/host-pc/O-JRC/lib/packet_switch_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a787ebc752a61b07586de5d8693c7a53c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::mimo_ofdm_jrc::packet_switch_impl::d_finished</definition>
+        <argsstring></argsstring>
+        <name>d_finished</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="37" column="10" bodyfile="/home/host-pc/O-JRC/lib/packet_switch_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a29b31a9c5bd64a51f65cc0282b020f6b" prot="private" static="no" mutable="no">
+        <type>boost::shared_ptr&lt; gr::thread::thread &gt;</type>
+        <definition>boost::shared_ptr&lt;gr::thread::thread&gt; gr::mimo_ofdm_jrc::packet_switch_impl::d_thread</definition>
+        <argsstring></argsstring>
+        <name>d_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="38" column="23" bodyfile="/home/host-pc/O-JRC/lib/packet_switch_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a9344a34b91e7d1833ee35bcb1051814e" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::mimo_ofdm_jrc::packet_switch_impl::d_current_time</definition>
+        <argsstring></argsstring>
+        <name>d_current_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="39" column="17" bodyfile="/home/host-pc/O-JRC/lib/packet_switch_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a5f5e08d2b39580e5e2dd3db4a9e02d04" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::mimo_ofdm_jrc::packet_switch_impl::d_last_time</definition>
+        <argsstring></argsstring>
+        <name>d_last_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="40" column="17" bodyfile="/home/host-pc/O-JRC/lib/packet_switch_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1af5ae9906e14690f8d60f045217e65bf0" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::mimo_ofdm_jrc::packet_switch_impl::d_type</definition>
+        <argsstring></argsstring>
+        <name>d_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="41" column="17" bodyfile="/home/host-pc/O-JRC/lib/packet_switch_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1ad74a009761036fd98b33db97cf46f86c" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::mimo_ofdm_jrc::packet_switch_impl::d_size</definition>
+        <argsstring></argsstring>
+        <name>d_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="42" column="17" bodyfile="/home/host-pc/O-JRC/lib/packet_switch_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1afdbde7002b95b781a9a2b0ee959ad7f4" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::mimo_ofdm_jrc::packet_switch_impl::d_msg</definition>
+        <argsstring></argsstring>
+        <name>d_msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="43" column="16" bodyfile="/home/host-pc/O-JRC/lib/packet_switch_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1acce5b16196fafc6ca679d6bf792efd3b" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::mimo_ofdm_jrc::packet_switch_impl::d_port</definition>
+        <argsstring></argsstring>
+        <name>d_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="44" column="22" bodyfile="/home/host-pc/O-JRC/lib/packet_switch_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a397cf486dd7e6282465f046ee9bbb369" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; gr::mimo_ofdm_jrc::packet_switch_impl::split</definition>
+        <argsstring>(const std::string &amp;s, char delimiter)</argsstring>
+        <name>split</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>delimiter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="46" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1ae6f07ee4e7658edee9f52e3ce35abd59" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimo_ofdm_jrc::packet_switch_impl::read_packet_info</definition>
+        <argsstring>()</argsstring>
+        <name>read_packet_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="48" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a9b774cd4438f45c1725455b4851e746e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mimo_ofdm_jrc::packet_switch_impl::packet_switch_impl</definition>
+        <argsstring>(long period_ms, const std::string &amp;packet_info_file)</argsstring>
+        <name>packet_switch_impl</name>
+        <param>
+          <type>long</type>
+          <declname>period_ms</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>packet_info_file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="53" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a7aded3023c8955b73cc7fc96074dddf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mimo_ofdm_jrc::packet_switch_impl::~packet_switch_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~packet_switch_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="54" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a2ac3ae1963484bee65f0b29986135b9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::mimo_ofdm_jrc::packet_switch_impl::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="56" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1af99151a2620d5dee08ef1591680c7cec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::mimo_ofdm_jrc::packet_switch_impl::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="58" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a237d503df75f98ccc4261aeb7cab6e3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimo_ofdm_jrc::packet_switch_impl::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="60" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::mimo_ofdm_jrc::packet_switch_impl</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::mimo_ofdm_jrc::packet_switch</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::mimo_ofdm_jrc::packet_switch_impl</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::mimo_ofdm_jrc::packet_switch</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/host-pc/O-JRC/lib/packet_switch_impl.h" line="32" column="1" bodyfile="/home/host-pc/O-JRC/lib/packet_switch_impl.h" bodystart="33" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a9344a34b91e7d1833ee35bcb1051814e" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>d_current_time</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a787ebc752a61b07586de5d8693c7a53c" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>d_finished</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a5f5e08d2b39580e5e2dd3db4a9e02d04" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>d_last_time</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1afdbde7002b95b781a9a2b0ee959ad7f4" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>d_msg</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a2e694ac7aaa34a0acbfb0138a2c1896b" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>d_packet_info_file</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1ae413ce155f44ee9190aa8df679034f22" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>d_period_ms</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1acce5b16196fafc6ca679d6bf792efd3b" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>d_port</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1ad74a009761036fd98b33db97cf46f86c" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>d_size</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a29b31a9c5bd64a51f65cc0282b020f6b" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>d_thread</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1af5ae9906e14690f8d60f045217e65bf0" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>d_type</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch_1a96a07785b97e4ca519672b93e51a9c93" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a9b774cd4438f45c1725455b4851e746e" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>packet_switch_impl</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1ae6f07ee4e7658edee9f52e3ce35abd59" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>read_packet_info</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a237d503df75f98ccc4261aeb7cab6e3e" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>run</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a397cf486dd7e6282465f046ee9bbb369" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>split</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch_1a7ca23e7b69d054c4e3a4d1a691a56037" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a2ac3ae1963484bee65f0b29986135b9a" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>start</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1af99151a2620d5dee08ef1591680c7cec" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>stop</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1packet__switch__impl_1a7aded3023c8955b73cc7fc96074dddf2" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::packet_switch_impl</scope><name>~packet_switch_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

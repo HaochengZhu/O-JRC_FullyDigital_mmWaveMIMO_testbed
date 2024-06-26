@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classMainWindow" kind="class" language="C++" prot="public">
+    <compoundname>MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <includes refid="mainwindow_8h" local="no">mainwindow.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMainWindow_1a35466a70ed47252a0191168126a352a5" prot="private" static="no" mutable="no">
+        <type><ref refid="classUi_1_1MainWindow" kindref="compound">Ui::MainWindow</ref> *</type>
+        <definition>Ui::MainWindow* MainWindow::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="65" column="20" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a204152a28d931712e33ebcb19fa89bd3" prot="private" static="no" mutable="no">
+        <type><ref refid="classTxWorker" kindref="compound">TxWorker</ref> *</type>
+        <definition>TxWorker* MainWindow::tx_worker</definition>
+        <argsstring></argsstring>
+        <name>tx_worker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="66" column="14" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a9a49d30bf222dee720cfbc7ba3ec6205" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::isStarted</definition>
+        <argsstring></argsstring>
+        <name>isStarted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="68" column="10" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMainWindow_1a8b244be8b7b7db1b08de2a2acb9409db" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::MainWindow</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>MainWindow</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="41" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1a4e20a4a065fbb0e4d3532a45a0a91425" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::closeEvent</definition>
+        <argsstring>(QCloseEvent *event)</argsstring>
+        <name>closeEvent</name>
+        <param>
+          <type>QCloseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="42" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::~MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>~MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="43" column="5"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classMainWindow_1abcc096120205197b50fa55cb603acb95" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_startButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_startButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="46" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a4eef043a72b34c09f2e8ff226d65d04a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_cameraConnectButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_cameraConnectButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="48" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a6f6132b405a8545b5ce6db629cd60b23" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_videoTxButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_videoTxButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="50" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1af20a94ce5f70438615390f6b6749fe21" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_dataIntervalInput_returnPressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_dataIntervalInput_returnPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="52" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a8295ade7dbb6bdf004c46e065f1508a1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_ndpButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_ndpButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="54" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a96123b10a543038edbd3aefb890d1d4e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_dataButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_dataButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="56" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1aa079e05ebaf3db603e43c2b5bd32199f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_comboButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_comboButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="58" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a8bea5e7014c924095a7fd57f54745a6b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_ndpIntervalInput_returnPressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_ndpIntervalInput_returnPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="60" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1af2dd373ef4e7ff96bf9ba1c575f4e018" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_dataSizeInput_returnPressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_dataSizeInput_returnPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="62" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMainWindow_1affb9ef8cf696f02118ff59ff8b8d49f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MainWindow::calculateMaxPduSize</definition>
+        <argsstring>()</argsstring>
+        <name>calculateMaxPduSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="69" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1a2462f6968bb22f2081c8ef6747299b0e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double MainWindow::computeMaxDataRate</definition>
+        <argsstring>()</argsstring>
+        <name>computeMaxDataRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="70" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1ab9d859037b18c92162aa93ff711cfbe9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double MainWindow::computeTxDuration</definition>
+        <argsstring>()</argsstring>
+        <name>computeTxDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="71" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1aed336614b938dca05f28ef0f15aed53a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double MainWindow::computeNdpTxDuration</definition>
+        <argsstring>()</argsstring>
+        <name>computeNdpTxDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="72" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1a5a6784031c4edde1d1107956c81b9a90" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double MainWindow::computeCurrentDataRate</definition>
+        <argsstring>(bool withNdp)</argsstring>
+        <name>computeCurrentDataRate</name>
+        <param>
+          <type>bool</type>
+          <declname>withNdp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="73" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1a582016f2a1c3ff2e848d192203f49c62" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString MainWindow::convertToUnits</definition>
+        <argsstring>(double l_nvalue)</argsstring>
+        <name>convertToUnits</name>
+        <param>
+          <type>double</type>
+          <declname>l_nvalue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="74" column="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QMainWindow</label>
+      </node>
+      <node id="1">
+        <label>MainWindow</label>
+        <link refid="classMainWindow"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QMainWindow</label>
+      </node>
+      <node id="1">
+        <label>MainWindow</label>
+        <link refid="classMainWindow"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" line="36" column="1" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/mainwindow.h" bodystart="37" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classMainWindow_1affb9ef8cf696f02118ff59ff8b8d49f4" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>calculateMaxPduSize</name></member>
+      <member refid="classMainWindow_1a4e20a4a065fbb0e4d3532a45a0a91425" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>closeEvent</name></member>
+      <member refid="classMainWindow_1a5a6784031c4edde1d1107956c81b9a90" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>computeCurrentDataRate</name></member>
+      <member refid="classMainWindow_1a2462f6968bb22f2081c8ef6747299b0e" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>computeMaxDataRate</name></member>
+      <member refid="classMainWindow_1aed336614b938dca05f28ef0f15aed53a" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>computeNdpTxDuration</name></member>
+      <member refid="classMainWindow_1ab9d859037b18c92162aa93ff711cfbe9" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>computeTxDuration</name></member>
+      <member refid="classMainWindow_1a582016f2a1c3ff2e848d192203f49c62" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>convertToUnits</name></member>
+      <member refid="classMainWindow_1a9a49d30bf222dee720cfbc7ba3ec6205" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>isStarted</name></member>
+      <member refid="classMainWindow_1a8b244be8b7b7db1b08de2a2acb9409db" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>MainWindow</name></member>
+      <member refid="classMainWindow_1a4eef043a72b34c09f2e8ff226d65d04a" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_cameraConnectButton_clicked</name></member>
+      <member refid="classMainWindow_1aa079e05ebaf3db603e43c2b5bd32199f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_comboButton_clicked</name></member>
+      <member refid="classMainWindow_1a96123b10a543038edbd3aefb890d1d4e" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_dataButton_clicked</name></member>
+      <member refid="classMainWindow_1af20a94ce5f70438615390f6b6749fe21" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_dataIntervalInput_returnPressed</name></member>
+      <member refid="classMainWindow_1af2dd373ef4e7ff96bf9ba1c575f4e018" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_dataSizeInput_returnPressed</name></member>
+      <member refid="classMainWindow_1a8295ade7dbb6bdf004c46e065f1508a1" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_ndpButton_clicked</name></member>
+      <member refid="classMainWindow_1a8bea5e7014c924095a7fd57f54745a6b" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_ndpIntervalInput_returnPressed</name></member>
+      <member refid="classMainWindow_1abcc096120205197b50fa55cb603acb95" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_startButton_clicked</name></member>
+      <member refid="classMainWindow_1a6f6132b405a8545b5ce6db629cd60b23" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_videoTxButton_clicked</name></member>
+      <member refid="classMainWindow_1a204152a28d931712e33ebcb19fa89bd3" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>tx_worker</name></member>
+      <member refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>ui</name></member>
+      <member refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>~MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

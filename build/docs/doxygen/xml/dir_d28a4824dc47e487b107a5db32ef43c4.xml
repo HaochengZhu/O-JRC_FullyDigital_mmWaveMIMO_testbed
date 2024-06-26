@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_d28a4824dc47e487b107a5db32ef43c4" kind="dir">
+    <compoundname>examples</compoundname>
+    <innerdir refid="dir_2f23a0658b1a07d8d3e19e3698f78e6f">build-mimo-ofdm-packet-generator-Desktop-Debug</innerdir>
+    <innerdir refid="dir_a409c2535405ffb3737038882fdad8c4">build-mimo-ofdm-packet-generator-unknown-Debug</innerdir>
+    <innerdir refid="dir_a7f5c337c75c088fe6e40ffa8c0cc0e8">step_2_packet_generate</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/host-pc/O-JRC/examples/"/>
+  </compounddef>
+</doxygen>

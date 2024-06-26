@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc" prot="public" virt="non-virtual">gr::mimo_ofdm_jrc::socket_pdu_jrc</basecompoundref>
+    <includes refid="socket__pdu__jrc__impl_8h" local="no">socket_pdu_jrc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a9fb4f3accfa3a0de5be98b2b3eff4571" prot="private" static="no" mutable="no">
+        <type>boost::asio::io_service</type>
+        <definition>boost::asio::io_service gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::d_io_service</definition>
+        <argsstring></argsstring>
+        <name>d_io_service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="34" column="29" bodyfile="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a6e019f797e0211537e09f2c6009ea882" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; char &gt;</type>
+        <definition>std::vector&lt;char&gt; gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::d_rxbuf</definition>
+        <argsstring></argsstring>
+        <name>d_rxbuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="35" column="17" bodyfile="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1ad9543c19ecc43b815165538058a3da77" prot="private" static="no" mutable="no">
+        <type>gr::thread::thread</type>
+        <definition>gr::thread::thread gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::d_thread</definition>
+        <argsstring></argsstring>
+        <name>d_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="37" column="24" bodyfile="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a30e03cc6d418cc1461c21fbe283ab233" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::d_started</definition>
+        <argsstring></argsstring>
+        <name>d_started</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="38" column="10" bodyfile="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a79a6d3d70a2a21190443f125db75ac7d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::d_enabled</definition>
+        <argsstring></argsstring>
+        <name>d_enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="41" column="10" bodyfile="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a19385d96e7e24bf516d0d3af6f6f21be" prot="private" static="no" mutable="no">
+        <type>boost::asio::ip::udp::endpoint</type>
+        <definition>boost::asio::ip::udp::endpoint gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::d_udp_endpoint</definition>
+        <argsstring></argsstring>
+        <name>d_udp_endpoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="44" column="36" bodyfile="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a3e6b51e57916a1350be84597da1ca466" prot="private" static="no" mutable="no">
+        <type>boost::asio::ip::udp::endpoint</type>
+        <definition>boost::asio::ip::udp::endpoint gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::d_udp_endpoint_other</definition>
+        <argsstring></argsstring>
+        <name>d_udp_endpoint_other</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="45" column="36" bodyfile="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1aa99240da3986f31762e11add420e2227" prot="private" static="no" mutable="no">
+        <type>boost::shared_ptr&lt; boost::asio::ip::udp::socket &gt;</type>
+        <definition>boost::shared_ptr&lt;boost::asio::ip::udp::socket&gt; gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::d_udp_socket</definition>
+        <argsstring></argsstring>
+        <name>d_udp_socket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="46" column="23" bodyfile="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1af21dd3243311d795f4d487a1de06c263" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::d_MTU</definition>
+        <argsstring></argsstring>
+        <name>d_MTU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="51" column="9" bodyfile="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a1217403dce9eda92522befc9375f5646" prot="private" static="no" mutable="no">
+        <type>gr::thread::mutex</type>
+        <definition>gr::thread::mutex gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="53" column="23" bodyfile="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a28190eb67531835a58bf680a3e01d4d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::run_io_service</definition>
+        <argsstring>()</argsstring>
+        <name>run_io_service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="36" column="10" bodyfile="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1ab25bbeeb6b0ba516abedfd1b57566141" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::enable_handler</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>enable_handler</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="40" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1ad042733485033a119ec5e44e8843473a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::handle_udp_read</definition>
+        <argsstring>(const boost::system::error_code &amp;error, size_t bytes_transferred)</argsstring>
+        <name>handle_udp_read</name>
+        <param>
+          <type>const boost::system::error_code &amp;</type>
+          <declname>error</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>bytes_transferred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="47" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a21b1fb5264151703c25df683a9835df9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::udp_send</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>udp_send</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="49" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a9fb6b5af46d30aebc6582fecb941d8aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::socket_pdu_jrc_impl</definition>
+        <argsstring>(std::string type, std::string addr, std::string port, int MTU)</argsstring>
+        <name>socket_pdu_jrc_impl</name>
+        <param>
+          <type>std::string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>MTU</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="57" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a786103da4c8cbad30bb0745a8115952f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::~socket_pdu_jrc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~socket_pdu_jrc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="61" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a8850030595af35b6eb6ecc40abb31609" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::mimo_ofdm_jrc::socket_pdu_jrc_impl::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="62" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::mimo_ofdm_jrc::socket_pdu_jrc</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::mimo_ofdm_jrc::socket_pdu_jrc</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" line="31" column="1" bodyfile="/home/host-pc/O-JRC/lib/socket_pdu_jrc_impl.h" bodystart="32" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a79a6d3d70a2a21190443f125db75ac7d" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>d_enabled</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a9fb4f3accfa3a0de5be98b2b3eff4571" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>d_io_service</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1af21dd3243311d795f4d487a1de06c263" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>d_MTU</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a1217403dce9eda92522befc9375f5646" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a6e019f797e0211537e09f2c6009ea882" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>d_rxbuf</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a30e03cc6d418cc1461c21fbe283ab233" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>d_started</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1ad9543c19ecc43b815165538058a3da77" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>d_thread</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a19385d96e7e24bf516d0d3af6f6f21be" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>d_udp_endpoint</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a3e6b51e57916a1350be84597da1ca466" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>d_udp_endpoint_other</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1aa99240da3986f31762e11add420e2227" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>d_udp_socket</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1ab25bbeeb6b0ba516abedfd1b57566141" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>enable_handler</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1ad042733485033a119ec5e44e8843473a" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>handle_udp_read</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc_1af3ed415bda100f270ccdb186dfaa7a8c" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a28190eb67531835a58bf680a3e01d4d5" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>run_io_service</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a9fb6b5af46d30aebc6582fecb941d8aa" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>socket_pdu_jrc_impl</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc_1addf41bc2efe371037c4d386c0e0ec1bb" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a8850030595af35b6eb6ecc40abb31609" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>stop</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a21b1fb5264151703c25df683a9835df9" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>udp_send</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1socket__pdu__jrc__impl_1a786103da4c8cbad30bb0745a8115952f" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::socket_pdu_jrc_impl</scope><name>~socket_pdu_jrc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

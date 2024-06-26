@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="txworker_8h" kind="file" language="C++">
+    <compoundname>txworker.h</compoundname>
+    <includes local="no">QObject</includes>
+    <includes local="no">QUdpSocket</includes>
+    <includes local="no">QBuffer</includes>
+    <includes local="no">chrono</includes>
+    <includes local="no">thread</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">QCameraInfo</includes>
+    <includes local="no">QCamera</includes>
+    <includes local="no">QCameraViewfinder</includes>
+    <includes local="no">QCameraImageCapture</includes>
+    <includes local="no">QMediaRecorder</includes>
+    <includedby refid="mainwindow_8h" local="yes">mainwindow.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="4">
+        <label>QBuffer</label>
+      </node>
+      <node id="11">
+        <label>QCameraImageCapture</label>
+      </node>
+      <node id="12">
+        <label>QMediaRecorder</label>
+      </node>
+      <node id="8">
+        <label>QCameraInfo</label>
+      </node>
+      <node id="10">
+        <label>QCameraViewfinder</label>
+      </node>
+      <node id="7">
+        <label>unistd.h</label>
+      </node>
+      <node id="3">
+        <label>QUdpSocket</label>
+      </node>
+      <node id="5">
+        <label>chrono</label>
+      </node>
+      <node id="6">
+        <label>thread</label>
+      </node>
+      <node id="9">
+        <label>QCamera</label>
+      </node>
+      <node id="1">
+        <label>txworker.h</label>
+        <link refid="txworker_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+      </node>
+      <node id="1">
+        <label>txworker.h</label>
+        <link refid="txworker_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classTxWorker" prot="public">TxWorker</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="txworker_8h_1ababbdcdf02b8386c3e71afdd1c81c731" prot="public" static="no" strong="no">
+        <type></type>
+        <name>txMode</name>
+        <enumvalue id="txworker_8h_1ababbdcdf02b8386c3e71afdd1c81c731ac0bbecd096aa5dd9b0cad289c4042f59" prot="public">
+          <name>OFFLINE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="txworker_8h_1ababbdcdf02b8386c3e71afdd1c81c731a32db55abc8f41e7b4026cbf4c27fcdc3" prot="public">
+          <name>NDP_TX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="txworker_8h_1ababbdcdf02b8386c3e71afdd1c81c731ae56bfef93c193bcabb4fec6aa4e4ebdc" prot="public">
+          <name>RANDOM_DATA_TX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="txworker_8h_1ababbdcdf02b8386c3e71afdd1c81c731a60071bbb580139dccb3714850a04524d" prot="public">
+          <name>NDP_AIDED_DATA_TX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="txworker_8h_1ababbdcdf02b8386c3e71afdd1c81c731adb81591bf42b19dcb79a480f7383afaa" prot="public">
+          <name>VIDEO_TX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="35" column="1" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="35" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="enum" id="txworker_8h_1a9d6d29831204b75cf82daf4ddf245899" prot="public" static="no" strong="no">
+        <type>uint8_t</type>
+        <name>PACKET_TYPE</name>
+        <enumvalue id="txworker_8h_1a9d6d29831204b75cf82daf4ddf245899a909002bfb278911ff711c2ab422309c2" prot="public">
+          <name>NDP</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="txworker_8h_1a9d6d29831204b75cf82daf4ddf245899a9d7d6f31868d66330397c967c4afd2d2" prot="public">
+          <name>DATA</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="txworker_8h_1a9d6d29831204b75cf82daf4ddf245899a909002bfb278911ff711c2ab422309c2" prot="public">
+          <name>NDP</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="txworker_8h_1a9d6d29831204b75cf82daf4ddf245899a9d7d6f31868d66330397c967c4afd2d2" prot="public">
+          <name>DATA</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" line="43" column="1" bodyfile="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h" bodystart="43" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/host-pc/O-JRC/examples/step_2_packet_generate/txworker.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::mimo_ofdm_jrc::ndp_generator_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator" prot="public" virt="non-virtual">gr::mimo_ofdm_jrc::ndp_generator</basecompoundref>
+    <includes refid="ndp__generator__impl_8h" local="no">ndp_generator_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1a57da2b4704d6f2faf95347f416102810" prot="private" static="no" mutable="no">
+        <type>boost::shared_ptr&lt; boost::thread &gt;</type>
+        <definition>boost::shared_ptr&lt;boost::thread&gt; gr::mimo_ofdm_jrc::ndp_generator_impl::d_thread</definition>
+        <argsstring></argsstring>
+        <name>d_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" line="36" column="25" bodyfile="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1a378a9dae0f8672a07b3314a6c764b825" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex gr::mimo_ofdm_jrc::ndp_generator_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" line="37" column="18" bodyfile="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1a637fc627eb9a95ceda2de968ed0cb588" prot="private" static="no" mutable="no">
+        <type>std::condition_variable</type>
+        <definition>std::condition_variable gr::mimo_ofdm_jrc::ndp_generator_impl::d_condition_variable</definition>
+        <argsstring></argsstring>
+        <name>d_condition_variable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" line="38" column="31" bodyfile="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1aac554f005e33750919a6b79369459815" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::mimo_ofdm_jrc::ndp_generator_impl::d_enabled</definition>
+        <argsstring></argsstring>
+        <name>d_enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" line="41" column="12" bodyfile="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1ab03dcf4bfdc4b52c3f684fa77e21cf64" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimo_ofdm_jrc::ndp_generator_impl::send_data</definition>
+        <argsstring>()</argsstring>
+        <name>send_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" line="39" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1ad24b52e34d86f1bf29e92b398d1a5af5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimo_ofdm_jrc::ndp_generator_impl::enable_handler</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>enable_handler</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" line="40" column="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1ad3ad92984f40dcc4ce2b8e70253ecc1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mimo_ofdm_jrc::ndp_generator_impl::ndp_generator_impl</definition>
+        <argsstring>()</argsstring>
+        <name>ndp_generator_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" line="44" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1afa7f3f069b8a9c9973a0bc164c8870d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mimo_ofdm_jrc::ndp_generator_impl::~ndp_generator_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ndp_generator_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" line="45" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1a2a0586cb499766c52c4b6b887a71d2ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::mimo_ofdm_jrc::ndp_generator_impl::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" line="47" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1ae530823b24dba3463b0a34cb6cf7100d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::mimo_ofdm_jrc::ndp_generator_impl::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" line="48" column="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::mimo_ofdm_jrc::ndp_generator</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::mimo_ofdm_jrc::ndp_generator_impl</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::mimo_ofdm_jrc::ndp_generator</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::mimo_ofdm_jrc::ndp_generator_impl</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" line="33" column="5" bodyfile="/home/host-pc/O-JRC/lib/ndp_generator_impl.h" bodystart="34" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1a637fc627eb9a95ceda2de968ed0cb588" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::ndp_generator_impl</scope><name>d_condition_variable</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1aac554f005e33750919a6b79369459815" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::ndp_generator_impl</scope><name>d_enabled</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1a378a9dae0f8672a07b3314a6c764b825" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::ndp_generator_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1a57da2b4704d6f2faf95347f416102810" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::ndp_generator_impl</scope><name>d_thread</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1ad24b52e34d86f1bf29e92b398d1a5af5" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::ndp_generator_impl</scope><name>enable_handler</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator_1a63f3d56fd7c93180e0a5e34348c90fc0" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::ndp_generator_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1ad3ad92984f40dcc4ce2b8e70253ecc1c" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::ndp_generator_impl</scope><name>ndp_generator_impl</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1ab03dcf4bfdc4b52c3f684fa77e21cf64" prot="private" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::ndp_generator_impl</scope><name>send_data</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator_1ae406b1755e9d7399b192d01ffad8293c" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::ndp_generator_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1a2a0586cb499766c52c4b6b887a71d2ee" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::ndp_generator_impl</scope><name>start</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1ae530823b24dba3463b0a34cb6cf7100d" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::ndp_generator_impl</scope><name>stop</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1ndp__generator__impl_1afa7f3f069b8a9c9973a0bc164c8870d0" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::ndp_generator_impl</scope><name>~ndp_generator_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
