@@ -69,6 +69,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/host-pc/O-JRC/include/mimo_ofdm_jrc/socket_pdu_jrc.h"
     "/home/host-pc/O-JRC/include/mimo_ofdm_jrc/ndp_generator.h"
     "/home/host-pc/O-JRC/include/mimo_ofdm_jrc/packet_switch.h"
+    "/home/host-pc/O-JRC/include/mimo_ofdm_jrc/gui_heatmap_plot_digital.h"
     )
 endif()
 

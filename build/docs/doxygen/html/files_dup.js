@@ -25,6 +25,12 @@ var files_dup =
     [ "gui_heatmap_plot.h", "gui__heatmap__plot_8h.html", [
       [ "gui_heatmap_plot", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot.html", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot" ]
     ] ],
+    [ "gui_heatmap_plot_digital.h", "gui__heatmap__plot__digital_8h.html", [
+      [ "gui_heatmap_plot_digital", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital.html", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital" ]
+    ] ],
+    [ "gui_heatmap_plot_digital_impl.h", "gui__heatmap__plot__digital__impl_8h.html", [
+      [ "gui_heatmap_plot_digital_impl", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl" ]
+    ] ],
     [ "gui_heatmap_plot_impl.h", "gui__heatmap__plot__impl_8h.html", [
       [ "gui_heatmap_plot_impl", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__impl.html", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__impl" ]
     ] ],
@@ -36,6 +42,9 @@ var files_dup =
     ] ],
     [ "heatmap_plot.h", "heatmap__plot_8h.html", [
       [ "heatmap_plot", "classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot.html", "classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot" ]
+    ] ],
+    [ "heatmap_plot_digital.h", "heatmap__plot__digital_8h.html", [
+      [ "heatmap_plot_digital", "classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital.html", "classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital" ]
     ] ],
     [ "ls.h", "ls_8h.html", [
       [ "ls", "classgr_1_1mimo__ofdm__jrc_1_1estimator_1_1ls.html", "classgr_1_1mimo__ofdm__jrc_1_1estimator_1_1ls" ]

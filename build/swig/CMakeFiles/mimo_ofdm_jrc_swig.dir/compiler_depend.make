@@ -1698,8 +1698,11 @@ swig/CMakeFiles/mimo_ofdm_jrc_swig.dir/CMakeFiles/mimo_ofdm_jrc_swig.dir/mimo_of
   ../include/mimo_ofdm_jrc/zero_pad.h \
   ../include/mimo_ofdm_jrc/socket_pdu_jrc.h \
   ../include/mimo_ofdm_jrc/ndp_generator.h \
-  ../include/mimo_ofdm_jrc/packet_switch.h
+  ../include/mimo_ofdm_jrc/packet_switch.h \
+  ../include/mimo_ofdm_jrc/gui_heatmap_plot_digital.h
 
+
+../include/mimo_ofdm_jrc/gui_heatmap_plot_digital.h:
 
 ../include/mimo_ofdm_jrc/packet_switch.h:
 

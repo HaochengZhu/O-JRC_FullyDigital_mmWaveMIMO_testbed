@@ -3,6 +3,7 @@ ccb1b3b2c143c535d26d87e14cf24633 CMakeFiles/uninstall
 b471e58af99c135810a8d419a60a95f9 docs/doxygen/CMakeFiles/doxygen_target
 e097962c8ba0f53dddcee3eb53576e16 docs/doxygen/xml
 cd6e35da88142e7b69c28725bc8df7da lib/moc_heatmap_plot.cpp
+288e98eb1cf276a432b0db441a28efd3 lib/moc_heatmap_plot_digital.cpp
 b049f8eee5f1afa03ebfabd147f36627 lib/moc_time_plot.cpp
 ec694375e680e55a00e748b8b2f18eb8 python/CMakeFiles/pygen_python_74bcb
 c3a076bd7af4917158a8c9b016ca2bcf python/__init__.pyc

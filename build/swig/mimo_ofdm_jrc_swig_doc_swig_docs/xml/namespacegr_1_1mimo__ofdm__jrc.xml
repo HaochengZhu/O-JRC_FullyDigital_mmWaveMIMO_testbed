@@ -6,6 +6,7 @@
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1frame__detector" prot="public">gr::mimo_ofdm_jrc::frame_detector</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1frame__sync" prot="public">gr::mimo_ofdm_jrc::frame_sync</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot" prot="public">gr::mimo_ofdm_jrc::gui_heatmap_plot</innerclass>
+    <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital" prot="public">gr::mimo_ofdm_jrc::gui_heatmap_plot_digital</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1gui__time__plot" prot="public">gr::mimo_ofdm_jrc::gui_time_plot</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1matrix__transpose" prot="public">gr::mimo_ofdm_jrc::matrix_transpose</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__equalizer" prot="public">gr::mimo_ofdm_jrc::mimo_ofdm_equalizer</innerclass>

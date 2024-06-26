@@ -46,6 +46,7 @@ var hierarchy =
     ] ],
     [ "QWidget", null, [
       [ "gr::mimo_ofdm_jrc::heatmap_plot", "classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot.html", null ],
+      [ "gr::mimo_ofdm_jrc::heatmap_plot_digital", "classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital.html", null ],
       [ "gr::mimo_ofdm_jrc::time_plot", "classgr_1_1mimo__ofdm__jrc_1_1time__plot.html", null ]
     ] ],
     [ "QwtRasterData", null, [
@@ -65,6 +66,9 @@ var hierarchy =
       ] ],
       [ "gr::mimo_ofdm_jrc::gui_heatmap_plot", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot.html", [
         [ "gr::mimo_ofdm_jrc::gui_heatmap_plot_impl", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__impl.html", null ]
+      ] ],
+      [ "gr::mimo_ofdm_jrc::gui_heatmap_plot_digital", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital.html", [
+        [ "gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl", "classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl.html", null ]
       ] ],
       [ "gr::mimo_ofdm_jrc::matrix_transpose", "classgr_1_1mimo__ofdm__jrc_1_1matrix__transpose.html", [
         [ "gr::mimo_ofdm_jrc::matrix_transpose_impl", "classgr_1_1mimo__ofdm__jrc_1_1matrix__transpose__impl.html", null ]

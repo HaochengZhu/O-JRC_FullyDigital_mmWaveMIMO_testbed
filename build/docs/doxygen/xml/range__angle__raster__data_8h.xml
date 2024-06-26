@@ -6,6 +6,7 @@
     <includes local="yes">qwt_raster_data.h</includes>
     <includes local="no">qvector.h</includes>
     <includedby refid="heatmap__plot_8h" local="yes">heatmap_plot.h</includedby>
+    <includedby refid="heatmap__plot__digital_8h" local="yes">heatmap_plot_digital.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>qvector.h</label>
@@ -28,6 +29,10 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="5">
+        <label>gui_heatmap_plot_digital_impl.h</label>
+        <link refid="gui__heatmap__plot__digital__impl_8h"/>
+      </node>
       <node id="3">
         <label>gui_heatmap_plot_impl.h</label>
         <link refid="gui__heatmap__plot__impl_8h"/>
@@ -37,11 +42,19 @@
         <link refid="range__angle__raster__data_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>heatmap_plot.h</label>
         <link refid="heatmap__plot_8h"/>
         <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>heatmap_plot_digital.h</label>
+        <link refid="heatmap__plot__digital_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

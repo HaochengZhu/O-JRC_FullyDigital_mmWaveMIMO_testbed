@@ -58,9 +58,9 @@ var NAVTREEINDEX =
 "build-mimo-ofdm-packet-generator-Desktop-Debug_2moc__predefs_8h.html#a967b4ada96d28b97bc07e26e1def8e66",
 "build-mimo-ofdm-packet-generator-unknown-Debug_2moc__predefs_8h.html#a42bcb9278fa2b4721fe04fc0627055ce",
 "build-mimo-ofdm-packet-generator-unknown-Debug_2moc__predefs_8h.html#adeff56b51aead6443852cacac294d464",
-"classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__impl.html#a1e307cc18cd86b193cd9c8a6ddb84309",
-"classgr_1_1mimo__ofdm__jrc_1_1sync__mimo__trx__impl.html#a32045f7d4b87c0d1381618ae575f7b6d",
-"functions_type.html"
+"classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl.html#a3bd9b42f8226c83ed4658bccde0af06a",
+"classgr_1_1mimo__ofdm__jrc_1_1stream__decoder__impl.html#aa71a394b816d187463f47eebfe928298",
+"functions_func.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

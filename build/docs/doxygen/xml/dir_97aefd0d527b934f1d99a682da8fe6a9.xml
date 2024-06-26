@@ -6,9 +6,11 @@
     <innerfile refid="fft__peak__detect__impl_8h">fft_peak_detect_impl.h</innerfile>
     <innerfile refid="frame__detector__impl_8h">frame_detector_impl.h</innerfile>
     <innerfile refid="frame__sync__impl_8h">frame_sync_impl.h</innerfile>
+    <innerfile refid="gui__heatmap__plot__digital__impl_8h">gui_heatmap_plot_digital_impl.h</innerfile>
     <innerfile refid="gui__heatmap__plot__impl_8h">gui_heatmap_plot_impl.h</innerfile>
     <innerfile refid="gui__time__plot__impl_8h">gui_time_plot_impl.h</innerfile>
     <innerfile refid="heatmap__plot_8h">heatmap_plot.h</innerfile>
+    <innerfile refid="heatmap__plot__digital_8h">heatmap_plot_digital.h</innerfile>
     <innerfile refid="ls_8h">ls.h</innerfile>
     <innerfile refid="matrix__transpose__impl_8h">matrix_transpose_impl.h</innerfile>
     <innerfile refid="mimo__ofdm__equalizer__impl_8h">mimo_ofdm_equalizer_impl.h</innerfile>

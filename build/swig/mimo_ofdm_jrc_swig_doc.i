@@ -160,6 +160,52 @@ Args:
     db_scale : 
     len_key : "
 
+%feature("docstring") gr::mimo_ofdm_jrc::gui_heatmap_plot_digital "<+description of block+>
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of mimo_ofdm_jrc::gui_heatmap_plot_digital.
+
+To avoid accidental use of raw pointers, mimo_ofdm_jrc::gui_heatmap_plot_digital's constructor is in a private implementation class. mimo_ofdm_jrc::gui_heatmap_plot_digital::make is the public interface for creating new instances.
+
+Args:
+    vlen : 
+    interval : 
+    xlabel : 
+    ylabel : 
+    label : 
+    axis_x : 
+    axis_y : 
+    dynamic_range_db : 
+    x_axis_ticks : 
+    y_axis_ticks : 
+    autoscale_z : 
+    db_scale : 
+    len_key : "
+
+%feature("docstring") gr::mimo_ofdm_jrc::gui_heatmap_plot_digital::make "<+description of block+>
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of mimo_ofdm_jrc::gui_heatmap_plot_digital.
+
+To avoid accidental use of raw pointers, mimo_ofdm_jrc::gui_heatmap_plot_digital's constructor is in a private implementation class. mimo_ofdm_jrc::gui_heatmap_plot_digital::make is the public interface for creating new instances.
+
+Args:
+    vlen : 
+    interval : 
+    xlabel : 
+    ylabel : 
+    label : 
+    axis_x : 
+    axis_y : 
+    dynamic_range_db : 
+    x_axis_ticks : 
+    y_axis_ticks : 
+    autoscale_z : 
+    db_scale : 
+    len_key : "
+
 %feature("docstring") gr::mimo_ofdm_jrc::gui_time_plot "<+description of block+>
 
 Constructor Specific Documentation:

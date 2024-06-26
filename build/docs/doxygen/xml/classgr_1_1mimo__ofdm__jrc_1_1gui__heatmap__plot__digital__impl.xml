@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital" prot="public" virt="non-virtual">gr::mimo_ofdm_jrc::gui_heatmap_plot_digital</basecompoundref>
+    <includes refid="gui__heatmap__plot__digital__impl_8h" local="no">gui_heatmap_plot_digital_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a690d1299acfe4fb66676179270fe3315" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_argc</definition>
+        <argsstring></argsstring>
+        <name>d_argc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="54" column="13" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1adb5eba65a2abe4404d7f544e0ddbf456" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_argv</definition>
+        <argsstring></argsstring>
+        <name>d_argv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="55" column="14" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ade2b37645f5681e9695e57739d452c5b" prot="public" static="no" mutable="no">
+        <type>QApplication *</type>
+        <definition>QApplication* gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_qApplication</definition>
+        <argsstring></argsstring>
+        <name>d_qApplication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="56" column="22" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1acc617d6dc970344fd90045c34e9fcccd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_vlen</definition>
+        <argsstring></argsstring>
+        <name>d_vlen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="58" column="13" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1aaba9e929b88969d8525b6a29dd3f80e7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_interval</definition>
+        <argsstring></argsstring>
+        <name>d_interval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="58" column="20" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ac0b9bbf33f05dd448693504182c52170" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_xlabel</definition>
+        <argsstring></argsstring>
+        <name>d_xlabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="59" column="21" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1aff4d3629eed2a0952cc6c255c055f393" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_ylabel</definition>
+        <argsstring></argsstring>
+        <name>d_ylabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="59" column="30" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a6e47723e873eff2eba5b6d9cef634697" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_label</definition>
+        <argsstring></argsstring>
+        <name>d_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="59" column="39" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a3bd9b42f8226c83ed4658bccde0af06a" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_axis_x</definition>
+        <argsstring></argsstring>
+        <name>d_axis_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="60" column="21" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ae62eca7f7a0e9bb6afbcb829955026d9" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_axis_y</definition>
+        <argsstring></argsstring>
+        <name>d_axis_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="60" column="30" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a6376b1f0f50403a4b2c61145e72e7250" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_dynamic_range_db</definition>
+        <argsstring></argsstring>
+        <name>d_dynamic_range_db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="61" column="15" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a82e510929b8aa570783e10290e96fb55" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_x_axis_ticks</definition>
+        <argsstring></argsstring>
+        <name>d_x_axis_ticks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="62" column="21" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ae6c662dc1893c3a18bb4676a3b3bd211" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_y_axis_ticks</definition>
+        <argsstring></argsstring>
+        <name>d_y_axis_ticks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="62" column="36" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ae82bd5bb4a0b3a7d759c03a8db61b04e" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="64" column="21" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ab793c2371642ae3e5040f145c1654de7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_autoscale_z</definition>
+        <argsstring></argsstring>
+        <name>d_autoscale_z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="65" column="14" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a2d9a09f5ff0b0ab59d1a384702f098e8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_db_scale</definition>
+        <argsstring></argsstring>
+        <name>d_db_scale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="65" column="28" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ae561cda403ceab1ec7f44aaab69aa8e0" prot="public" static="no" mutable="no">
+        <type><ref refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital" kindref="compound">heatmap_plot_digital</ref> *</type>
+        <definition>heatmap_plot_digital* gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::d_main_gui</definition>
+        <argsstring></argsstring>
+        <name>d_main_gui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="66" column="30" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a9262af82c56ae42f580e541de017a94e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="36" column="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ad9d0cc93cae4a06296cce8fdd186295f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::gui_heatmap_plot_digital_impl</definition>
+        <argsstring>(int vlen, int interval, std::string xlabel, std::string ylabel, std::string label, std::vector&lt; float &gt; axis_x, std::vector&lt; float &gt; axis_y, float dynamic_range_db, std::vector&lt; float &gt; x_axis_ticks, std::vector&lt; float &gt; y_axis_ticks, bool autoscale_z, bool db_scale, std::string len_key)</argsstring>
+        <name>gui_heatmap_plot_digital_impl</name>
+        <param>
+          <type>int</type>
+          <declname>vlen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>xlabel</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>ylabel</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>axis_x</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>axis_y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dynamic_range_db</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>x_axis_ticks</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>y_axis_ticks</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoscale_z</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>db_scale</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>len_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="39" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1aaa05fd780490d61498feec8846dcd73d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::~gui_heatmap_plot_digital_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~gui_heatmap_plot_digital_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="52" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a5f2cb441a91fbe51d9dfda6997a2a4d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::run_gui</definition>
+        <argsstring>()</argsstring>
+        <name>run_gui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="68" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a185ea51f37bcdaa13945664439515c7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="72" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+      <node id="1">
+        <label>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>gr::mimo_ofdm_jrc::heatmap_plot_digital</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+      <node id="5">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="2">
+        <label>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>QWidget</label>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+      <node id="1">
+        <label>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</label>
+        <link refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_label</edgelabel>
+          <edgelabel>d_xlabel</edgelabel>
+          <edgelabel>d_ylabel</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>d_axis_x</edgelabel>
+          <edgelabel>d_axis_y</edgelabel>
+          <edgelabel>d_buffer</edgelabel>
+          <edgelabel>d_x_axis_ticks</edgelabel>
+          <edgelabel>d_y_axis_ticks</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>d_main_gui</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::string</label>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" line="30" column="5" bodyfile="/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.h" bodystart="31" bodyend="78"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a9262af82c56ae42f580e541de017a94e" prot="protected" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a690d1299acfe4fb66676179270fe3315" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_argc</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1adb5eba65a2abe4404d7f544e0ddbf456" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_argv</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ab793c2371642ae3e5040f145c1654de7" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_autoscale_z</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a3bd9b42f8226c83ed4658bccde0af06a" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_axis_x</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ae62eca7f7a0e9bb6afbcb829955026d9" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_axis_y</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ae82bd5bb4a0b3a7d759c03a8db61b04e" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_buffer</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a2d9a09f5ff0b0ab59d1a384702f098e8" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_db_scale</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a6376b1f0f50403a4b2c61145e72e7250" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_dynamic_range_db</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1aaba9e929b88969d8525b6a29dd3f80e7" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_interval</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a6e47723e873eff2eba5b6d9cef634697" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_label</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ae561cda403ceab1ec7f44aaab69aa8e0" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_main_gui</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ade2b37645f5681e9695e57739d452c5b" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_qApplication</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1acc617d6dc970344fd90045c34e9fcccd" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_vlen</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a82e510929b8aa570783e10290e96fb55" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_x_axis_ticks</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ac0b9bbf33f05dd448693504182c52170" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_xlabel</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ae6c662dc1893c3a18bb4676a3b3bd211" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_y_axis_ticks</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1aff4d3629eed2a0952cc6c255c055f393" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>d_ylabel</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ad9d0cc93cae4a06296cce8fdd186295f" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>gui_heatmap_plot_digital_impl</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital_1a5131c3e710627fd8e2ccc698f60f0ce6" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a5f2cb441a91fbe51d9dfda6997a2a4d7" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>run_gui</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital_1a608c49669024bff453592882563eae0f" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a185ea51f37bcdaa13945664439515c7a" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1aaa05fd780490d61498feec8846dcd73d" prot="public" virt="non-virtual"><scope>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</scope><name>~gui_heatmap_plot_digital_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

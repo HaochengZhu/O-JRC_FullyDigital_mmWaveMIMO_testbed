@@ -6,6 +6,7 @@
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1frame__detector" prot="public">gr::mimo_ofdm_jrc::frame_detector</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1frame__sync" prot="public">gr::mimo_ofdm_jrc::frame_sync</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot" prot="public">gr::mimo_ofdm_jrc::gui_heatmap_plot</innerclass>
+    <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital" prot="public">gr::mimo_ofdm_jrc::gui_heatmap_plot_digital</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1gui__time__plot" prot="public">gr::mimo_ofdm_jrc::gui_time_plot</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1matrix__transpose" prot="public">gr::mimo_ofdm_jrc::matrix_transpose</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__equalizer" prot="public">gr::mimo_ofdm_jrc::mimo_ofdm_equalizer</innerclass>
@@ -29,9 +30,11 @@
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1fft__peak__detect__impl" prot="public">gr::mimo_ofdm_jrc::fft_peak_detect_impl</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1frame__detector__impl" prot="public">gr::mimo_ofdm_jrc::frame_detector_impl</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1frame__sync__impl" prot="public">gr::mimo_ofdm_jrc::frame_sync_impl</innerclass>
+    <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl" prot="public">gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__impl" prot="public">gr::mimo_ofdm_jrc::gui_heatmap_plot_impl</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1gui__time__plot__impl" prot="public">gr::mimo_ofdm_jrc::gui_time_plot_impl</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot" prot="public">gr::mimo_ofdm_jrc::heatmap_plot</innerclass>
+    <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital" prot="public">gr::mimo_ofdm_jrc::heatmap_plot_digital</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1matrix__transpose__impl" prot="public">gr::mimo_ofdm_jrc::matrix_transpose_impl</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__equalizer__impl" prot="public">gr::mimo_ofdm_jrc::mimo_ofdm_equalizer_impl</innerclass>
     <innerclass refid="classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__radar__impl" prot="public">gr::mimo_ofdm_jrc::mimo_ofdm_radar_impl</innerclass>

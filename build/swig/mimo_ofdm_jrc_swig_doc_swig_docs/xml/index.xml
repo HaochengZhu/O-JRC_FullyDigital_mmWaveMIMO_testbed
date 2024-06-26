@@ -19,6 +19,10 @@
     <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot_1ab3c6356bf81d53e236f73f71b296d678" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot_1ad75ea8d2975f3309c35b617df9d23472" kind="function"><name>make</name></member>
   </compound>
+  <compound refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital" kind="class"><name>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital</name>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital_1a608c49669024bff453592882563eae0f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital_1a5131c3e710627fd8e2ccc698f60f0ce6" kind="function"><name>make</name></member>
+  </compound>
   <compound refid="classgr_1_1mimo__ofdm__jrc_1_1gui__time__plot" kind="class"><name>gr::mimo_ofdm_jrc::gui_time_plot</name>
     <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__time__plot_1abfe418e642bf109afbe35a344a25cecf" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__time__plot_1a530cb6e26927a4ead1519c7fb8e2783b" kind="function"><name>make</name></member>
@@ -157,6 +161,8 @@
   <compound refid="frame__sync_8h" kind="file"><name>frame_sync.h</name>
   </compound>
   <compound refid="gui__heatmap__plot_8h" kind="file"><name>gui_heatmap_plot.h</name>
+  </compound>
+  <compound refid="gui__heatmap__plot__digital_8h" kind="file"><name>gui_heatmap_plot_digital.h</name>
   </compound>
   <compound refid="gui__time__plot_8h" kind="file"><name>gui_time_plot.h</name>
   </compound>

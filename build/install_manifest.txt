@@ -24,6 +24,7 @@
 /usr/local/include/mimo_ofdm_jrc/socket_pdu_jrc.h
 /usr/local/include/mimo_ofdm_jrc/ndp_generator.h
 /usr/local/include/mimo_ofdm_jrc/packet_switch.h
+/usr/local/include/mimo_ofdm_jrc/gui_heatmap_plot_digital.h
 /usr/local/lib/libgnuradio-mimo_ofdm_jrc.so.1.0.0.0
 /usr/local/lib/libgnuradio-mimo_ofdm_jrc.so.1.0.0
 /usr/local/lib/libgnuradio-mimo_ofdm_jrc.so
@@ -45,6 +46,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/mimo__radar__estimator__impl_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/socket__pdu__jrc__impl_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1zero__pad__impl.xml
+/usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1mimo__radar__estimator__2__impl.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1range__angle__estimator.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/range__angle__raster__data_8h.xml
@@ -56,6 +58,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1usrp__mimo__trx__impl.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/ofdm__frame__generator__impl_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1matrix__transpose.xml
+/usr/local/share/doc/gr-mimo_ofdm_jrc/xml/gui__heatmap__plot__digital_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/frame__detector_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/mimo__ofdm__equalizer_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classMainWindow.xml
@@ -67,6 +70,8 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/usrp__mimo__trx__impl_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/sync__mimo__trx__impl_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__impl.xml
+/usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl.xml
+/usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/time__plot_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__equalizer.xml
@@ -79,6 +84,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/ndp__generator_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/mimo__ofdm__radar__impl_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/dir_d44c64559bbebec7f509842c48db8b23.xml
+/usr/local/share/doc/gr-mimo_ofdm_jrc/xml/gui__heatmap__plot__digital__impl_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1ofdm__frame__generator__impl.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1moving__avg.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__equalizer__impl.xml
@@ -180,6 +186,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/ofdm__frame__generator_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/packet__switch__impl_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/dir_f2cd86917185299abf5a1f0679072f3c.xml
+/usr/local/share/doc/gr-mimo_ofdm_jrc/xml/heatmap__plot__digital_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/udp__sink_8h.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/group__block.xml
 /usr/local/share/doc/gr-mimo_ofdm_jrc/xml/ofdm__cyclic__prefix__remover__impl_8h.xml
@@ -232,6 +239,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/mimo__ofdm__radar__impl_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1time__plot.png
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/functions_func_e.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/stream__encoder__impl_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/nav_f.png
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1mimo__radar__estimator.js
@@ -302,6 +310,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1fft__peak__detect__impl.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1zero__pad__impl.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/build-mimo-ofdm-packet-generator-Desktop-Debug_2ui__mainwindow_8h.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/main__page_8dox.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__equalizer__impl.png
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/modules.html
@@ -332,6 +341,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/socket__pdu__jrc__impl_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/moving__avg_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/functions_p.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/heatmap__plot__digital_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/mimo__ofdm__equalizer_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/files.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/frame__detector__impl_8h_source.html
@@ -375,6 +385,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__impl.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1stream__decoder.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/zero__pad__impl_8h.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/globals_defs_m.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__equalizer.png
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/mimo__radar__estimator__impl_8h.html
@@ -422,6 +433,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__radar-members.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/ofdm__frame__generator_8h.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__equalizer.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/gui__heatmap__plot__digital_8h.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/socket__pdu__jrc__impl_8h.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classTxWorker-members.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1estimator_1_1base-members.html
@@ -442,6 +454,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__radar.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classMainWindow-members.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/functions_func_n.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital-members.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1mimo__precoder.png
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/zero__pad__impl_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/packet__switch_8h.html
@@ -525,12 +538,16 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/functions_dup.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1zero__pad.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/gui__heatmap__plot_8h.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/gui__heatmap__plot__digital_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1frame__sync.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl.png
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/navtree.css
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/functions_func_l.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/gui__heatmap__plot__digital__impl_8h.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1range__angle__estimator__impl.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__equalizer-members.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/tcp__connection_8h.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital.png
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/moving__avg__impl_8h.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/range__angle__estimator_8h.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/dir_a7f5c337c75c088fe6e40ffa8c0cc0e8.html
@@ -544,6 +561,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1sync__mimo__trx__impl.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/fft__peak__detect_8h.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1mimo__ofdm__radar.png
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1matrix__transpose.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1blocks_1_1udp__sink.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1stream__encoder.js
@@ -584,6 +602,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/stream__decoder__impl_8h.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot-members.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1time__plot-members.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/heatmap__plot__digital_8h.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/usrp__mimo__trx_8h.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1tcp__connection-members.html
@@ -614,7 +633,9 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1mimo__radar__estimator__impl.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/functions_func.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1packet__switch.png
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl-members.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/time__plot_8h.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital.png
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/sync_on.png
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/build-mimo-ofdm-packet-generator-Desktop-Debug_2moc__predefs_8h.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/functions_func_w.html
@@ -654,6 +675,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/range__angle__estimator_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1mimo__radar__estimator__impl.png
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/gui__heatmap__plot__digital__impl_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/socket__pdu__jrc_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/mimo__radar__estimator__2__impl_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classofdm__mcs.html
@@ -662,6 +684,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/functions_func_g.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/group__block.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/functions_l.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1gui__time__plot.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1mimo__precoder__impl.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/packet__switch__impl_8h_source.html
@@ -686,6 +709,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/functions_vars.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/globals_m.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/nav_g.png
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/build-mimo-ofdm-packet-generator-Desktop-Debug_2ui__mainwindow_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1estimator_1_1sta.js
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/dir_97aefd0d527b934f1d99a682da8fe6a9.html
@@ -717,6 +741,7 @@
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1mimo__precoder.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1frame__detector.png
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1zero__pad__impl.html
+/usr/local/share/doc/gr-mimo_ofdm_jrc/html/classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital-members.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/ofdm__cyclic__prefix__remover_8h_source.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/classUi__MainWindow-members.html
 /usr/local/share/doc/gr-mimo_ofdm_jrc/html/range__angle__estimator__impl_8h_source.html
@@ -754,3 +779,4 @@
 /usr/local/share/gnuradio/grc/blocks/mimo_ofdm_jrc_socket_pdu_jrc.block.yml
 /usr/local/share/gnuradio/grc/blocks/mimo_ofdm_jrc_ndp_generator.block.yml
 /usr/local/share/gnuradio/grc/blocks/mimo_ofdm_jrc_packet_switch.block.yml
+/usr/local/share/gnuradio/grc/blocks/mimo_ofdm_jrc_gui_heatmap_plot_digital.block.yml

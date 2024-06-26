@@ -97,6 +97,34 @@
     <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot_1ab3c6356bf81d53e236f73f71b296d678" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot_1ad75ea8d2975f3309c35b617df9d23472" kind="function"><name>make</name></member>
   </compound>
+  <compound refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital" kind="class"><name>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital</name>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital_1a608c49669024bff453592882563eae0f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital_1a5131c3e710627fd8e2ccc698f60f0ce6" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl" kind="class"><name>gr::mimo_ofdm_jrc::gui_heatmap_plot_digital_impl</name>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a690d1299acfe4fb66676179270fe3315" kind="variable"><name>d_argc</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1adb5eba65a2abe4404d7f544e0ddbf456" kind="variable"><name>d_argv</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ade2b37645f5681e9695e57739d452c5b" kind="variable"><name>d_qApplication</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1acc617d6dc970344fd90045c34e9fcccd" kind="variable"><name>d_vlen</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1aaba9e929b88969d8525b6a29dd3f80e7" kind="variable"><name>d_interval</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ac0b9bbf33f05dd448693504182c52170" kind="variable"><name>d_xlabel</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1aff4d3629eed2a0952cc6c255c055f393" kind="variable"><name>d_ylabel</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a6e47723e873eff2eba5b6d9cef634697" kind="variable"><name>d_label</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a3bd9b42f8226c83ed4658bccde0af06a" kind="variable"><name>d_axis_x</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ae62eca7f7a0e9bb6afbcb829955026d9" kind="variable"><name>d_axis_y</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a6376b1f0f50403a4b2c61145e72e7250" kind="variable"><name>d_dynamic_range_db</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a82e510929b8aa570783e10290e96fb55" kind="variable"><name>d_x_axis_ticks</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ae6c662dc1893c3a18bb4676a3b3bd211" kind="variable"><name>d_y_axis_ticks</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ae82bd5bb4a0b3a7d759c03a8db61b04e" kind="variable"><name>d_buffer</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ab793c2371642ae3e5040f145c1654de7" kind="variable"><name>d_autoscale_z</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a2d9a09f5ff0b0ab59d1a384702f098e8" kind="variable"><name>d_db_scale</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ae561cda403ceab1ec7f44aaab69aa8e0" kind="variable"><name>d_main_gui</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a9262af82c56ae42f580e541de017a94e" kind="function"><name>calculate_output_stream_length</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1ad9d0cc93cae4a06296cce8fdd186295f" kind="function"><name>gui_heatmap_plot_digital_impl</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1aaa05fd780490d61498feec8846dcd73d" kind="function"><name>~gui_heatmap_plot_digital_impl</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a5f2cb441a91fbe51d9dfda6997a2a4d7" kind="function"><name>run_gui</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__digital__impl_1a185ea51f37bcdaa13945664439515c7a" kind="function"><name>work</name></member>
+  </compound>
   <compound refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__impl" kind="class"><name>gr::mimo_ofdm_jrc::gui_heatmap_plot_impl</name>
     <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__impl_1a28cabde5e0cb337b496dfba9ee460a48" kind="variable"><name>d_argc</name></member>
     <member refid="classgr_1_1mimo__ofdm__jrc_1_1gui__heatmap__plot__impl_1aecc94d0c7f8c6ed3fb31268defa4a0ad" kind="variable"><name>d_argv</name></member>
@@ -177,6 +205,34 @@
     <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot_1a6ac0997edf1c4fec94c2c28c4e02d077" kind="slot"><name>refresh</name></member>
     <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot_1a9016cfa80bb04402322fa46553913ec6" kind="slot"><name>findClosestIndex</name></member>
     <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot_1a61f8be1a6f1dcb800344449fbcb0067c" kind="slot"><name>loadSiversAngleFromCSV</name></member>
+  </compound>
+  <compound refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital" kind="class"><name>gr::mimo_ofdm_jrc::heatmap_plot_digital</name>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1ae1c23bfff59e4329350148df9e7d7dbf" kind="variable"><name>d_interval</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1aac4797a6b21bc95f870b9e93b78f1da7" kind="variable"><name>d_vlen</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1ac98b223e337524b3b721eec90f20f1b5" kind="variable"><name>d_x_axis_div</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a8ffb7be537836839126e8090b41834b0" kind="variable"><name>d_y_axis_div</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a0620ff53d9a75ad5255c73fa6fe327ca" kind="variable"><name>d_axis_x</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a7d4f01495633aa115fe1d21e4221b852" kind="variable"><name>d_axis_y</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a5d32b8b05dbd674e41893e4f2e1290d5" kind="variable"><name>d_x_axis_ticks</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1ac1778d6e3503aa4a58deed14f9ed12b4" kind="variable"><name>d_y_axis_ticks</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a70dde57f7d53b13bf6d4bc92c92bf02f" kind="variable"><name>d_dynamic_range_db</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a8f21d1608905a3bef82401d150f0cdcd" kind="variable"><name>d_buffer</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a50de9210270fb4aa8b476cfd915b36ca" kind="variable"><name>d_autoscale_z</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1ad5aaa7279e9c69f4b736f19a5cbb8420" kind="variable"><name>d_db_scale</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a0cc17d05963d01589fecbb3045591405" kind="variable"><name>d_timer</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a32900b10538f061ad223fd2254be497c" kind="variable"><name>d_plot</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1ace5cf56d257e347b6a5054858cff5de0" kind="variable"><name>d_spectrogram</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a79b2bc8af3c1a75ab15d5707e01cd644" kind="variable"><name>d_data</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1ac8fbbccb4fb34e21b3b251527f78d3fd" kind="variable"><name>d_colormap</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a061d41139cef2d0a97e5c65f3af23fdc" kind="variable"><name>d_scale</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a2748dcd4ee2fd8710f79054564751c7a" kind="variable"><name>d_plot_data</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1ac051fd3c7621a8eaf26f84b768a504a9" kind="variable"><name>d_plot_data_3D</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a89e2d817056cd7d67b38471cd89a11e2" kind="variable"><name>axis_font</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1af957d9cf85f40ac75134f975266bd6d3" kind="variable"><name>axis_title_font</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1ad7715fa0bad67e22d67a152865442b85" kind="function"><name>heatmap_plot_digital</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a7b1e854e48ec4a0a9f9d5e3ac1d71a5e" kind="function"><name>~heatmap_plot_digital</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a1d9677958622b592eb8e219a1415d62f" kind="function"><name>resizeEvent</name></member>
+    <member refid="classgr_1_1mimo__ofdm__jrc_1_1heatmap__plot__digital_1a6b3599a9ca12263a29cb4cc269c73488" kind="slot"><name>refresh</name></member>
   </compound>
   <compound refid="classgr_1_1mimo__ofdm__jrc_1_1estimator_1_1ls" kind="class"><name>gr::mimo_ofdm_jrc::estimator::ls</name>
     <member refid="classgr_1_1mimo__ofdm__jrc_1_1estimator_1_1ls_1ad5308d5fe8e9c84cf2f6f33368af0829" kind="variable"><name>d_snr_est</name></member>
@@ -1131,6 +1187,10 @@
   </compound>
   <compound refid="gui__heatmap__plot_8h" kind="file"><name>gui_heatmap_plot.h</name>
   </compound>
+  <compound refid="gui__heatmap__plot__digital_8h" kind="file"><name>gui_heatmap_plot_digital.h</name>
+  </compound>
+  <compound refid="gui__heatmap__plot__digital__impl_8h" kind="file"><name>gui_heatmap_plot_digital_impl.h</name>
+  </compound>
   <compound refid="gui__heatmap__plot__impl_8h" kind="file"><name>gui_heatmap_plot_impl.h</name>
   </compound>
   <compound refid="gui__time__plot_8h" kind="file"><name>gui_time_plot.h</name>
@@ -1138,6 +1198,8 @@
   <compound refid="gui__time__plot__impl_8h" kind="file"><name>gui_time_plot_impl.h</name>
   </compound>
   <compound refid="heatmap__plot_8h" kind="file"><name>heatmap_plot.h</name>
+  </compound>
+  <compound refid="heatmap__plot__digital_8h" kind="file"><name>heatmap_plot_digital.h</name>
   </compound>
   <compound refid="ls_8h" kind="file"><name>ls.h</name>
   </compound>

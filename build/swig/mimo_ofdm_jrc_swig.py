@@ -9997,5 +9997,418 @@ _mimo_ofdm_jrc_swig.packet_switch_sptr_swigregister(packet_switch_sptr)
 packet_switch_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
 packet_switch = packet_switch.make;
 
+class gui_heatmap_plot_digital(object):
+    r"""
+    <+description of block+>
+
+    Constructor Specific Documentation:
+
+    Return a shared_ptr to a new instance of mimo_ofdm_jrc::gui_heatmap_plot_digital.
+
+    To avoid accidental use of raw pointers, mimo_ofdm_jrc::gui_heatmap_plot_digital's constructor is in a private implementation class. mimo_ofdm_jrc::gui_heatmap_plot_digital::make is the public interface for creating new instances.
+
+    Args:
+        vlen : 
+        interval : 
+        xlabel : 
+        ylabel : 
+        label : 
+        axis_x : 
+        axis_y : 
+        dynamic_range_db : 
+        x_axis_ticks : 
+        y_axis_ticks : 
+        autoscale_z : 
+        db_scale : 
+        len_key : 
+    """
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+
+    @staticmethod
+    def make(*args, **kwargs) -> "gr::mimo_ofdm_jrc::gui_heatmap_plot_digital::sptr":
+        r"""
+        make(int vlen, int interval, std::string xlabel, std::string ylabel, std::string label, pmt_vector_float axis_x, pmt_vector_float axis_y, float dynamic_range_db, pmt_vector_float x_axis_ticks, pmt_vector_float y_axis_ticks, bool autoscale_z, bool db_scale, std::string len_key="packet_len") -> gui_heatmap_plot_digital_sptr
+        <+description of block+>
+
+        Constructor Specific Documentation:
+
+        Return a shared_ptr to a new instance of mimo_ofdm_jrc::gui_heatmap_plot_digital.
+
+        To avoid accidental use of raw pointers, mimo_ofdm_jrc::gui_heatmap_plot_digital's constructor is in a private implementation class. mimo_ofdm_jrc::gui_heatmap_plot_digital::make is the public interface for creating new instances.
+
+        Args:
+            vlen : 
+            interval : 
+            xlabel : 
+            ylabel : 
+            label : 
+            axis_x : 
+            axis_y : 
+            dynamic_range_db : 
+            x_axis_ticks : 
+            y_axis_ticks : 
+            autoscale_z : 
+            db_scale : 
+            len_key : 
+        """
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_make(*args, **kwargs)
+    __swig_destroy__ = _mimo_ofdm_jrc_swig.delete_gui_heatmap_plot_digital
+
+# Register gui_heatmap_plot_digital in _mimo_ofdm_jrc_swig:
+_mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_swigregister(gui_heatmap_plot_digital)
+
+def gui_heatmap_plot_digital_make(*args, **kwargs) -> "gr::mimo_ofdm_jrc::gui_heatmap_plot_digital::sptr":
+    r"""
+    gui_heatmap_plot_digital_make(int vlen, int interval, std::string xlabel, std::string ylabel, std::string label, pmt_vector_float axis_x, pmt_vector_float axis_y, float dynamic_range_db, pmt_vector_float x_axis_ticks, pmt_vector_float y_axis_ticks, bool autoscale_z, bool db_scale, std::string len_key="packet_len") -> gui_heatmap_plot_digital_sptr
+    <+description of block+>
+
+    Constructor Specific Documentation:
+
+    Return a shared_ptr to a new instance of mimo_ofdm_jrc::gui_heatmap_plot_digital.
+
+    To avoid accidental use of raw pointers, mimo_ofdm_jrc::gui_heatmap_plot_digital's constructor is in a private implementation class. mimo_ofdm_jrc::gui_heatmap_plot_digital::make is the public interface for creating new instances.
+
+    Args:
+        vlen : 
+        interval : 
+        xlabel : 
+        ylabel : 
+        label : 
+        axis_x : 
+        axis_y : 
+        dynamic_range_db : 
+        x_axis_ticks : 
+        y_axis_ticks : 
+        autoscale_z : 
+        db_scale : 
+        len_key : 
+    """
+    return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_make(*args, **kwargs)
+
+class gui_heatmap_plot_digital_sptr(object):
+    r"""Proxy of C++ boost::shared_ptr< gr::mimo_ofdm_jrc::gui_heatmap_plot_digital > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        r"""
+        __init__(gui_heatmap_plot_digital_sptr self) -> gui_heatmap_plot_digital_sptr
+        __init__(gui_heatmap_plot_digital_sptr self, gui_heatmap_plot_digital p) -> gui_heatmap_plot_digital_sptr
+        """
+        _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_swiginit(self, _mimo_ofdm_jrc_swig.new_gui_heatmap_plot_digital_sptr(*args))
+
+    def __deref__(self) -> "gr::mimo_ofdm_jrc::gui_heatmap_plot_digital *":
+        r"""__deref__(gui_heatmap_plot_digital_sptr self) -> gui_heatmap_plot_digital"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr___deref__(self)
+    __swig_destroy__ = _mimo_ofdm_jrc_swig.delete_gui_heatmap_plot_digital_sptr
+
+    def make(self, *args, **kwargs) -> "gr::mimo_ofdm_jrc::gui_heatmap_plot_digital::sptr":
+        r"""
+        make(gui_heatmap_plot_digital_sptr self, int vlen, int interval, std::string xlabel, std::string ylabel, std::string label, pmt_vector_float axis_x, pmt_vector_float axis_y, float dynamic_range_db, pmt_vector_float x_axis_ticks, pmt_vector_float y_axis_ticks, bool autoscale_z, bool db_scale, std::string len_key="packet_len") -> gui_heatmap_plot_digital_sptr
+        <+description of block+>
+
+        Constructor Specific Documentation:
+
+        Return a shared_ptr to a new instance of mimo_ofdm_jrc::gui_heatmap_plot_digital.
+
+        To avoid accidental use of raw pointers, mimo_ofdm_jrc::gui_heatmap_plot_digital's constructor is in a private implementation class. mimo_ofdm_jrc::gui_heatmap_plot_digital::make is the public interface for creating new instances.
+
+        Args:
+            vlen : 
+            interval : 
+            xlabel : 
+            ylabel : 
+            label : 
+            axis_x : 
+            axis_y : 
+            dynamic_range_db : 
+            x_axis_ticks : 
+            y_axis_ticks : 
+            autoscale_z : 
+            db_scale : 
+            len_key : 
+        """
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_make(self, *args, **kwargs)
+
+    def history(self) -> "unsigned int":
+        r"""history(gui_heatmap_plot_digital_sptr self) -> unsigned int"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_history(self)
+
+    def declare_sample_delay(self, *args) -> "void":
+        r"""
+        declare_sample_delay(gui_heatmap_plot_digital_sptr self, int which, int delay)
+        declare_sample_delay(gui_heatmap_plot_digital_sptr self, unsigned int delay)
+        """
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_declare_sample_delay(self, *args)
+
+    def sample_delay(self, which: "int") -> "unsigned int":
+        r"""sample_delay(gui_heatmap_plot_digital_sptr self, int which) -> unsigned int"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_sample_delay(self, which)
+
+    def set_output_multiple(self, multiple: "int") -> "void":
+        r"""set_output_multiple(gui_heatmap_plot_digital_sptr self, int multiple)"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_set_output_multiple(self, multiple)
+
+    def output_multiple(self) -> "int":
+        r"""output_multiple(gui_heatmap_plot_digital_sptr self) -> int"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_output_multiple(self)
+
+    def relative_rate(self) -> "double":
+        r"""relative_rate(gui_heatmap_plot_digital_sptr self) -> double"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_relative_rate(self)
+
+    def relative_rate_i(self) -> "uint64_t":
+        r"""relative_rate_i(gui_heatmap_plot_digital_sptr self) -> uint64_t"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_relative_rate_i(self)
+
+    def relative_rate_d(self) -> "uint64_t":
+        r"""relative_rate_d(gui_heatmap_plot_digital_sptr self) -> uint64_t"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_relative_rate_d(self)
+
+    def start(self) -> "bool":
+        r"""start(gui_heatmap_plot_digital_sptr self) -> bool"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_start(self)
+
+    def stop(self) -> "bool":
+        r"""stop(gui_heatmap_plot_digital_sptr self) -> bool"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_stop(self)
+
+    def nitems_read(self, which_input: "unsigned int") -> "uint64_t":
+        r"""nitems_read(gui_heatmap_plot_digital_sptr self, unsigned int which_input) -> uint64_t"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_nitems_read(self, which_input)
+
+    def nitems_written(self, which_output: "unsigned int") -> "uint64_t":
+        r"""nitems_written(gui_heatmap_plot_digital_sptr self, unsigned int which_output) -> uint64_t"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_nitems_written(self, which_output)
+
+    def set_log_level(self, level: "std::string") -> "void":
+        r"""set_log_level(gui_heatmap_plot_digital_sptr self, std::string level)"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_set_log_level(self, level)
+
+    def log_level(self) -> "std::string":
+        r"""log_level(gui_heatmap_plot_digital_sptr self) -> std::string"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_log_level(self)
+
+    def max_noutput_items(self) -> "int":
+        r"""max_noutput_items(gui_heatmap_plot_digital_sptr self) -> int"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_max_noutput_items(self)
+
+    def set_max_noutput_items(self, m: "int") -> "void":
+        r"""set_max_noutput_items(gui_heatmap_plot_digital_sptr self, int m)"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_set_max_noutput_items(self, m)
+
+    def unset_max_noutput_items(self) -> "void":
+        r"""unset_max_noutput_items(gui_heatmap_plot_digital_sptr self)"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_unset_max_noutput_items(self)
+
+    def is_set_max_noutput_items(self) -> "bool":
+        r"""is_set_max_noutput_items(gui_heatmap_plot_digital_sptr self) -> bool"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_is_set_max_noutput_items(self)
+
+    def set_min_noutput_items(self, m: "int") -> "void":
+        r"""set_min_noutput_items(gui_heatmap_plot_digital_sptr self, int m)"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_set_min_noutput_items(self, m)
+
+    def min_noutput_items(self) -> "int":
+        r"""min_noutput_items(gui_heatmap_plot_digital_sptr self) -> int"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_min_noutput_items(self)
+
+    def max_output_buffer(self, i: "int") -> "long":
+        r"""max_output_buffer(gui_heatmap_plot_digital_sptr self, int i) -> long"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_max_output_buffer(self, i)
+
+    def set_max_output_buffer(self, *args) -> "void":
+        r"""
+        set_max_output_buffer(gui_heatmap_plot_digital_sptr self, long max_output_buffer)
+        set_max_output_buffer(gui_heatmap_plot_digital_sptr self, int port, long max_output_buffer)
+        """
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_set_max_output_buffer(self, *args)
+
+    def min_output_buffer(self, i: "int") -> "long":
+        r"""min_output_buffer(gui_heatmap_plot_digital_sptr self, int i) -> long"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_min_output_buffer(self, i)
+
+    def set_min_output_buffer(self, *args) -> "void":
+        r"""
+        set_min_output_buffer(gui_heatmap_plot_digital_sptr self, long min_output_buffer)
+        set_min_output_buffer(gui_heatmap_plot_digital_sptr self, int port, long min_output_buffer)
+        """
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_set_min_output_buffer(self, *args)
+
+    def pc_noutput_items(self) -> "float":
+        r"""pc_noutput_items(gui_heatmap_plot_digital_sptr self) -> float"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_noutput_items(self)
+
+    def pc_noutput_items_avg(self) -> "float":
+        r"""pc_noutput_items_avg(gui_heatmap_plot_digital_sptr self) -> float"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_noutput_items_avg(self)
+
+    def pc_noutput_items_var(self) -> "float":
+        r"""pc_noutput_items_var(gui_heatmap_plot_digital_sptr self) -> float"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_noutput_items_var(self)
+
+    def pc_nproduced(self) -> "float":
+        r"""pc_nproduced(gui_heatmap_plot_digital_sptr self) -> float"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_nproduced(self)
+
+    def pc_nproduced_avg(self) -> "float":
+        r"""pc_nproduced_avg(gui_heatmap_plot_digital_sptr self) -> float"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_nproduced_avg(self)
+
+    def pc_nproduced_var(self) -> "float":
+        r"""pc_nproduced_var(gui_heatmap_plot_digital_sptr self) -> float"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_nproduced_var(self)
+
+    def pc_input_buffers_full(self, *args) -> "std::vector< float,std::allocator< float > >":
+        r"""
+        pc_input_buffers_full(gui_heatmap_plot_digital_sptr self, int which) -> float
+        pc_input_buffers_full(gui_heatmap_plot_digital_sptr self) -> pmt_vector_float
+        """
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_input_buffers_full(self, *args)
+
+    def pc_input_buffers_full_avg(self, *args) -> "std::vector< float,std::allocator< float > >":
+        r"""
+        pc_input_buffers_full_avg(gui_heatmap_plot_digital_sptr self, int which) -> float
+        pc_input_buffers_full_avg(gui_heatmap_plot_digital_sptr self) -> pmt_vector_float
+        """
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_input_buffers_full_avg(self, *args)
+
+    def pc_input_buffers_full_var(self, *args) -> "std::vector< float,std::allocator< float > >":
+        r"""
+        pc_input_buffers_full_var(gui_heatmap_plot_digital_sptr self, int which) -> float
+        pc_input_buffers_full_var(gui_heatmap_plot_digital_sptr self) -> pmt_vector_float
+        """
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_input_buffers_full_var(self, *args)
+
+    def pc_output_buffers_full(self, *args) -> "std::vector< float,std::allocator< float > >":
+        r"""
+        pc_output_buffers_full(gui_heatmap_plot_digital_sptr self, int which) -> float
+        pc_output_buffers_full(gui_heatmap_plot_digital_sptr self) -> pmt_vector_float
+        """
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_output_buffers_full(self, *args)
+
+    def pc_output_buffers_full_avg(self, *args) -> "std::vector< float,std::allocator< float > >":
+        r"""
+        pc_output_buffers_full_avg(gui_heatmap_plot_digital_sptr self, int which) -> float
+        pc_output_buffers_full_avg(gui_heatmap_plot_digital_sptr self) -> pmt_vector_float
+        """
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_output_buffers_full_avg(self, *args)
+
+    def pc_output_buffers_full_var(self, *args) -> "std::vector< float,std::allocator< float > >":
+        r"""
+        pc_output_buffers_full_var(gui_heatmap_plot_digital_sptr self, int which) -> float
+        pc_output_buffers_full_var(gui_heatmap_plot_digital_sptr self) -> pmt_vector_float
+        """
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_output_buffers_full_var(self, *args)
+
+    def pc_work_time(self) -> "float":
+        r"""pc_work_time(gui_heatmap_plot_digital_sptr self) -> float"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_work_time(self)
+
+    def pc_work_time_avg(self) -> "float":
+        r"""pc_work_time_avg(gui_heatmap_plot_digital_sptr self) -> float"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_work_time_avg(self)
+
+    def pc_work_time_var(self) -> "float":
+        r"""pc_work_time_var(gui_heatmap_plot_digital_sptr self) -> float"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_work_time_var(self)
+
+    def pc_work_time_total(self) -> "float":
+        r"""pc_work_time_total(gui_heatmap_plot_digital_sptr self) -> float"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_work_time_total(self)
+
+    def pc_throughput_avg(self) -> "float":
+        r"""pc_throughput_avg(gui_heatmap_plot_digital_sptr self) -> float"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_pc_throughput_avg(self)
+
+    def set_processor_affinity(self, mask: "std::vector< int,std::allocator< int > > const &") -> "void":
+        r"""set_processor_affinity(gui_heatmap_plot_digital_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_set_processor_affinity(self, mask)
+
+    def unset_processor_affinity(self) -> "void":
+        r"""unset_processor_affinity(gui_heatmap_plot_digital_sptr self)"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_unset_processor_affinity(self)
+
+    def processor_affinity(self) -> "std::vector< int,std::allocator< int > >":
+        r"""processor_affinity(gui_heatmap_plot_digital_sptr self) -> std::vector< int,std::allocator< int > >"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_processor_affinity(self)
+
+    def active_thread_priority(self) -> "int":
+        r"""active_thread_priority(gui_heatmap_plot_digital_sptr self) -> int"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_active_thread_priority(self)
+
+    def thread_priority(self) -> "int":
+        r"""thread_priority(gui_heatmap_plot_digital_sptr self) -> int"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_thread_priority(self)
+
+    def set_thread_priority(self, priority: "int") -> "int":
+        r"""set_thread_priority(gui_heatmap_plot_digital_sptr self, int priority) -> int"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_set_thread_priority(self, priority)
+
+    def name(self) -> "std::string":
+        r"""name(gui_heatmap_plot_digital_sptr self) -> std::string"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_name(self)
+
+    def symbol_name(self) -> "std::string":
+        r"""symbol_name(gui_heatmap_plot_digital_sptr self) -> std::string"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_symbol_name(self)
+
+    def input_signature(self) -> "gr::io_signature::sptr":
+        r"""input_signature(gui_heatmap_plot_digital_sptr self) -> io_signature_sptr"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_input_signature(self)
+
+    def output_signature(self) -> "gr::io_signature::sptr":
+        r"""output_signature(gui_heatmap_plot_digital_sptr self) -> io_signature_sptr"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_output_signature(self)
+
+    def unique_id(self) -> "long":
+        r"""unique_id(gui_heatmap_plot_digital_sptr self) -> long"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_unique_id(self)
+
+    def to_basic_block(self) -> "gr::basic_block_sptr":
+        r"""to_basic_block(gui_heatmap_plot_digital_sptr self) -> basic_block_sptr"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_to_basic_block(self)
+
+    def check_topology(self, ninputs: "int", noutputs: "int") -> "bool":
+        r"""check_topology(gui_heatmap_plot_digital_sptr self, int ninputs, int noutputs) -> bool"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_check_topology(self, ninputs, noutputs)
+
+    def alias(self) -> "std::string":
+        r"""alias(gui_heatmap_plot_digital_sptr self) -> std::string"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_alias(self)
+
+    def set_block_alias(self, name: "std::string") -> "void":
+        r"""set_block_alias(gui_heatmap_plot_digital_sptr self, std::string name)"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_set_block_alias(self, name)
+
+    def _post(self, which_port: "swig_pmt_ptr", msg: "swig_pmt_ptr") -> "void":
+        r"""_post(gui_heatmap_plot_digital_sptr self, swig_pmt_ptr which_port, swig_pmt_ptr msg)"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr__post(self, which_port, msg)
+
+    def message_ports_in(self) -> "pmt::pmt_t":
+        r"""message_ports_in(gui_heatmap_plot_digital_sptr self) -> swig_pmt_ptr"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_message_ports_in(self)
+
+    def message_ports_out(self) -> "pmt::pmt_t":
+        r"""message_ports_out(gui_heatmap_plot_digital_sptr self) -> swig_pmt_ptr"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_message_ports_out(self)
+
+    def message_subscribers(self, which_port: "swig_pmt_ptr") -> "pmt::pmt_t":
+        r"""message_subscribers(gui_heatmap_plot_digital_sptr self, swig_pmt_ptr which_port) -> swig_pmt_ptr"""
+        return _mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_message_subscribers(self, which_port)
+
+# Register gui_heatmap_plot_digital_sptr in _mimo_ofdm_jrc_swig:
+_mimo_ofdm_jrc_swig.gui_heatmap_plot_digital_sptr_swigregister(gui_heatmap_plot_digital_sptr)
+
+
+gui_heatmap_plot_digital_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
+gui_heatmap_plot_digital = gui_heatmap_plot_digital.make;
+
 
 

@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/host-pc/O-JRC/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFFTW3F_THREADS -DGR_CTRLPORT -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Dgnuradio_mimo_ofdm_jrc_EXPORTS -I/home/host-pc/O-JRC/lib/../include -isystem /usr/include/qwt -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC   -fvisibility=hidden -fPIC -std=gnu++11 -o CMakeFiles/gnuradio-mimo_ofdm_jrc.dir/moc_heatmap_plot_digital.cpp.o -c /home/host-pc/O-JRC/build/lib/moc_heatmap_plot_digital.cpp",
+  "file": "/home/host-pc/O-JRC/build/lib/moc_heatmap_plot_digital.cpp"
+},
+{
+  "directory": "/home/host-pc/O-JRC/build/lib",
   "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFFTW3F_THREADS -DGR_CTRLPORT -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Dgnuradio_mimo_ofdm_jrc_EXPORTS -I/home/host-pc/O-JRC/lib/../include -isystem /usr/include/qwt -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC   -fvisibility=hidden -fPIC -std=gnu++11 -o CMakeFiles/gnuradio-mimo_ofdm_jrc.dir/moc_time_plot.cpp.o -c /home/host-pc/O-JRC/build/lib/moc_time_plot.cpp",
   "file": "/home/host-pc/O-JRC/build/lib/moc_time_plot.cpp"
 },
@@ -38,6 +43,11 @@
   "directory": "/home/host-pc/O-JRC/build/lib",
   "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFFTW3F_THREADS -DGR_CTRLPORT -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Dgnuradio_mimo_ofdm_jrc_EXPORTS -I/home/host-pc/O-JRC/lib/../include -isystem /usr/include/qwt -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC   -fvisibility=hidden -fPIC -std=gnu++11 -o CMakeFiles/gnuradio-mimo_ofdm_jrc.dir/heatmap_plot.cc.o -c /home/host-pc/O-JRC/lib/heatmap_plot.cc",
   "file": "/home/host-pc/O-JRC/lib/heatmap_plot.cc"
+},
+{
+  "directory": "/home/host-pc/O-JRC/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFFTW3F_THREADS -DGR_CTRLPORT -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Dgnuradio_mimo_ofdm_jrc_EXPORTS -I/home/host-pc/O-JRC/lib/../include -isystem /usr/include/qwt -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC   -fvisibility=hidden -fPIC -std=gnu++11 -o CMakeFiles/gnuradio-mimo_ofdm_jrc.dir/heatmap_plot_digital.cc.o -c /home/host-pc/O-JRC/lib/heatmap_plot_digital.cc",
+  "file": "/home/host-pc/O-JRC/lib/heatmap_plot_digital.cc"
 },
 {
   "directory": "/home/host-pc/O-JRC/build/lib",
@@ -173,6 +183,11 @@
   "directory": "/home/host-pc/O-JRC/build/lib",
   "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFFTW3F_THREADS -DGR_CTRLPORT -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Dgnuradio_mimo_ofdm_jrc_EXPORTS -I/home/host-pc/O-JRC/lib/../include -isystem /usr/include/qwt -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC   -fvisibility=hidden -fPIC -std=gnu++11 -o CMakeFiles/gnuradio-mimo_ofdm_jrc.dir/packet_switch_impl.cc.o -c /home/host-pc/O-JRC/lib/packet_switch_impl.cc",
   "file": "/home/host-pc/O-JRC/lib/packet_switch_impl.cc"
+},
+{
+  "directory": "/home/host-pc/O-JRC/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFFTW3F_THREADS -DGR_CTRLPORT -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -Dgnuradio_mimo_ofdm_jrc_EXPORTS -I/home/host-pc/O-JRC/lib/../include -isystem /usr/include/qwt -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC   -fvisibility=hidden -fPIC -std=gnu++11 -o CMakeFiles/gnuradio-mimo_ofdm_jrc.dir/gui_heatmap_plot_digital_impl.cc.o -c /home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.cc",
+  "file": "/home/host-pc/O-JRC/lib/gui_heatmap_plot_digital_impl.cc"
 },
 {
   "directory": "/home/host-pc/O-JRC/build/swig",

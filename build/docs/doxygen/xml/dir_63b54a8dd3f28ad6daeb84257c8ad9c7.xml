@@ -7,6 +7,7 @@
     <innerfile refid="frame__detector_8h">frame_detector.h</innerfile>
     <innerfile refid="frame__sync_8h">frame_sync.h</innerfile>
     <innerfile refid="gui__heatmap__plot_8h">gui_heatmap_plot.h</innerfile>
+    <innerfile refid="gui__heatmap__plot__digital_8h">gui_heatmap_plot_digital.h</innerfile>
     <innerfile refid="gui__time__plot_8h">gui_time_plot.h</innerfile>
     <innerfile refid="matrix__transpose_8h">matrix_transpose.h</innerfile>
     <innerfile refid="mimo__ofdm__equalizer_8h">mimo_ofdm_equalizer.h</innerfile>

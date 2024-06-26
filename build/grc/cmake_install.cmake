@@ -68,6 +68,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/host-pc/O-JRC/grc/mimo_ofdm_jrc_socket_pdu_jrc.block.yml"
     "/home/host-pc/O-JRC/grc/mimo_ofdm_jrc_ndp_generator.block.yml"
     "/home/host-pc/O-JRC/grc/mimo_ofdm_jrc_packet_switch.block.yml"
+    "/home/host-pc/O-JRC/grc/mimo_ofdm_jrc_gui_heatmap_plot_digital.block.yml"
     )
 endif()
 
